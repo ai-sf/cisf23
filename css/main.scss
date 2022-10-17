@@ -178,11 +178,15 @@ nav.navbar{
       .bar{
         display: block;
         width: 138px;
-        height: 2px;
-        margin: 17px auto;
+        height: 3px;
+        margin: 15px auto;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
         background-color: $accent;
+
+        @media screen and (max-width: $small){
+          width: 70px;
+        }
       }
     }
 
@@ -192,10 +196,17 @@ nav.navbar{
         opacity: 0;
       }
       .bar:nth-child(1){
+
         transform: translateY(20px) rotate(30deg);
+        @media screen and (max-width: $small){
+          transform:  translateY(18px) rotate(40deg);
+        }
       }
       .bar:nth-child(3){
         transform: translateY(-20px) rotate(-30deg);
+        @media screen and (max-width: $small){
+          transform:  translateY(-18px) rotate(-40deg);
+        }
       }
 
 }
@@ -867,6 +878,14 @@ ul.accordion{
         }
       }
 
+    }
+  }
+
+  &.small-collapse{
+    @media screen and (max-width: $small){
+      .column-content{
+        display: none;
+      }
     }
   }
 

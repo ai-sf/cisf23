@@ -28,8 +28,8 @@ $(document).ready(function () {
     parent = $(this).parent();
     elem = $(".item-content", parent);
     if (!parent.hasClass("active")) {
+      $(".accordion li").removeClass("active");
       $(parent).addClass("active");
-      $(elem).fadeIn();
     } else {
       $(parent).removeClass("active");
     }
