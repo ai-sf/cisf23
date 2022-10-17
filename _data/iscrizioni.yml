@@ -1,0 +1,19 @@
+columns:
+  - width: 1
+    style: top
+    title: Iscrizioni
+    par: p2
+  - width: 4
+    style: top
+    par: p1
+    text:
+    title: Termini e condizioni
+
+  - width: 1
+    style: full top
+    title: Quanti di informazione
+    par: p2
+    text:
+    - button: on
+      text: Iscriviti
+      link: www.google.it

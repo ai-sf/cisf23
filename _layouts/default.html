@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+  {% include head.html %}
+
+  <body {% if page.footer == "fixed" %} class="fixed-footer" {% endif %}
+  >
+    {% include nav.html%}
+    {{ content }}
+    {% if page.footer == "fixed" %}
+      {% include footer.html %}
+    {% else %}
+      {% include footer.html %}
+    {% endif %}
+  </body>
+  {% include scripts.html %}
+
+</html>

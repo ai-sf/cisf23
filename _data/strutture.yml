@@ -1,0 +1,99 @@
+columns:
+  - width: h1 m6
+    title: Strutture
+    style: spaced top
+    par: p2
+    text:
+    - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
+
+  - width: h1 m6
+    title: Unipa
+    style: separated medium-row
+    text:
+    - title: Edificio 18
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          link: https://www.google.com
+          type: button
+        - text: Posizione
+          type: button
+          link: https://www.google.com
+    - title: Edificio 22
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          type: button
+        - text: Posizione
+          type: button
+
+  - width: h2 m6
+    title: Palermo
+    style: separated big-row medium-row
+    par: p2
+    text:
+    - title: Edificio 18
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          link: https://www.google.com
+          type: button
+        - text: Posizione
+          type: button
+          link: https://www.google.com
+    - title: Edificio 22
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          type: button
+        - text: Posizione
+          type: button
+    - title: Edificio 18
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          link: https://www.google.com
+          type: button
+        - text: Posizione
+          type: button
+          link: https://www.google.com
+    - title: Edificio 22
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          type: button
+        - text: Posizione
+          type: button
+
+
+  - width: h2 m6
+    style: separated
+    par: p2
+    title: Erice
+    style: separated big-row medium-row
+    par: p2
+    text:
+    - title: Edificio 18
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          link: https://www.google.com
+          type: button
+        - text: Posizione
+          type: button
+          link: https://www.google.com
+    - title: Edificio 22
+      image: img/cattedrale-di-palermo_fb.jpg
+      info:
+        - Indirizzo
+        - text: Sito web
+          type: button
+        - text: Posizione
+          type: button

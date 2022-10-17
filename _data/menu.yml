@@ -1,0 +1,13 @@
+- text: "Cos'è cisf23"
+  link: "informazioni"
+- text: "Programma"
+  link: "programma"
+- text: "Strutture"
+  link: "strutture"
+- text: "Speaker"
+  link: "speaker"
+- text: "Attività"
+  link: attivita
+- text: "Iscrizioni"
+  link: iscrizioni
+  grow: "grow"

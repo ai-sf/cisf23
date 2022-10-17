@@ -1,0 +1,73 @@
+columns:
+  - width: s6 m2 h1
+    style: top
+    par: p2
+    title: CISF23
+  - width: s6 m4 h4
+    style: top nobordertop
+    par: p1
+    text:
+    - section: CISF è il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF) che approda nella città di Palermo dopo tre anni di assenza indotta.
+    - section: Per la VII edizione circa 150 studenti di Fisica da tutta Italia si riuniranno per la prima volta nel capoluogo siciliano con l’occasione di sperimentare e vivere la quotidianità dell’ambiente universitario palermitano, partecipare a conferenze ed incontri con giovani scienziati di calibro internazionale e soprattutto avendo la possibilità di interfacciarsi reciprocamente durante le attività e le visite svolte all’interno delle strutture storiche, cornici della fisica palermitana e siciliana.
+
+  - width: s6 h1
+    style: top
+    title: Il comitato
+    par: p2
+    text:
+      - section:
+        - Andrea Gerhard Lutz
+        - Laurea Triennale
+        - Università degli Studi di Palermo
+        - Presidente Comitato Locale
+      - section:
+        - Casimiromaria Carciola
+        - Laurea Triennale
+        - Università degli Studi di Palermo
+        - Vicepresidente Comitato Locale
+      - section:
+        - Giovanni Cusimano
+        - Laurea Triennale
+        - Università degli Studi di Palermo
+      - section:
+        - Enrico Di Benedetto
+        - Laurea Magistrale
+        - Università degli Studi di Palermo
+        - Responsabile Pubbliche Relazioni
+      - section:
+        - Santi Macaluso
+        - Laurea Triennale
+        - Università degli Studi di Palermo
+        - Responsabile Comitati Locali
+      - section:
+        - Alessandro Romancino
+        - Laurea Magistrale
+        - Università degli Studi di Palermo
+      - section:
+        - Andrea Lombardo
+        - Laurea Magistrale
+        - Università degli Studi di Palermo
+      - section:
+        - Elettra Rita Alice Castronovo
+        - Laurea Magistrale
+        - Università degli Studi di Palermo
+      - section:
+        - Federica Maida
+        - Laurea Magistrale
+        - Università degli Studi di Palermo
+      - section:
+        - Floriana Giacalone
+        - Laurea Magistrale
+        - Università degli Studi di Palermo
+      - section:
+        - Pietro Castronovo
+        - Laurea Magistrale
+        - Università degli Studi di Palermo
+      - section:
+        - Vito Ruisi
+        - Laurea Triennale
+        - Università degli Studi di Palermo
+      - section:
+        - Margherita Valenza
+        - Laurea Magistrale
+        - Università degli Studi di Palermo

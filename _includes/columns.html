@@ -1,0 +1,74 @@
+<div class="row-container">
+<div class="row">
+  {% for column in include.data%}
+  {% assign width = "s1"%}
+    {% if column.width %}
+      {% assign width = column.width %}
+    {% endif %}
+  <div class="column {{width}} {{column.style}}">
+    {% if column.title %}
+      <div class="column-header">
+        <h3>{{column.title}}</h3>
+      </div>
+    {% endif %}
+    {% if column.text %}
+    <div class="column-content">
+      {% for p in column.text %}
+        <div class="{{p.color}}">
+          {% if p.button%}
+            <a class="button full-width primary" href="{{p.link}}">{{p.text}}</a>
+          {% else %}
+
+            {% if p.section %}
+              {% for item in p.section %}
+                <p class="text-item {{column.par}}"> {{item}} </p>
+              {% endfor %}
+            {% else %}
+              {% if p.image %}
+                <div class="image">
+                  <img src="{{p.image}}">
+                </div>
+              {% endif %}
+              {% if p.first %}
+                <p>{{p.title}}</p>
+                {% if p.subtitle %}
+                  <h3>{{p.subtitle}}</h3>
+                {% endif %}
+                {% if p.info %}
+                <div class="grid-info">
+                  {% for item in p.info %}
+                    {% if item.first %}
+                      {% if item.type == "button" %}
+                        <a src="{{item.link}}" class="{{item.type}}">
+                          {{item.text}}
+                        </a>
+                      {% else %}
+                        <div class="{{item.type}}">
+                          {{item.text}}
+                        </div>
+                      {% endif %}
+                    {% else %}
+                    <p class="text-item p2"> {{item}} </p>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if p.footer%}
+                  <div class="grid-info">
+                    <p class="text-item p2"> {{p.footer}} </p>
+                  </div>
+                {% endif %}
+              {% else %}
+                {{p}}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    </div>
+  {% endfor %}
+</div>
+</div>

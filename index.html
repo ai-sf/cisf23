@@ -1,0 +1,48 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<section class="slideshow">
+  {% for slide in site.data.home.slides %}
+    <div class="slide {{slide.style}}"
+    style="{% if slide.image %}
+              background-image: url('{{slide.image}}');
+           {% endif %}
+              background:{{slide.color}}"> {{slide.text}} </div>
+  {% endfor %}
+</section>
+
+<div id="infinite-scroll">
+  <div>CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · CISF 23 · </div>
+</div>
+
+<div id="home-main">
+  <div class="col col-left">
+    <ul class="bullet-vertical">
+      {% for item in site.data.home.summary %}
+        <li class="summary-item">
+            {{item.text}}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col col-right">
+    <p class="p1">{{site.data.home.big-title}}</p>
+    <p class="p2">{{site.data.home.sub-title}}</p>
+  </div>
+</div>
+
+
+<div id="button-container">
+  {% for button in site.data.home.buttons %}
+    <a class="button" href="{{button.link}}">{{button.text}}</a>
+  {% endfor %}
+</div>
+
+
+
+{% include faq.html%}
+

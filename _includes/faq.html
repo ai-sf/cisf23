@@ -1,0 +1,11 @@
+<div class="faq-container">
+  <h2>FAQ</h2>
+  <ul class="accordion">
+  {% for item in site.data.faq %}
+    <li>
+      <div class="item-header">{{item.title}}</div>
+      <div class="item-content">{{item.text}}</div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

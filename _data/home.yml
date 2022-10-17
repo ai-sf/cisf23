@@ -1,0 +1,24 @@
+summary:
+ - text: 12-16 aprile 2023
+ - text: 150 studenti
+ - text: VII edizione
+ - text: Palermo
+ - text: CISF23
+
+big-title: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF) che torna, dopo tre anni di assenza, nella città di Palermo!
+
+sub-title: Per la VII edizione circa 150 studenti di Fisica da tutta Italia si riuniranno per la prima volta nel capoluogo siciliano con l’occasione di sperimentare e vivere la quotidianità dell’ambiente universitario palermitano, partecipare a conferenze ed incontri con giovani scienziati di calibro internazionale e soprattutto avendo la possibilità di interfacciarsi reciprocamente durante le attività e le visite svolte all’interno delle strutture storiche, cornici della fisica palermitana e siciliana.
+
+buttons:
+ - text: Sito ufficiale - AISF
+   link: https://ai-sf.it
+ - text: Iscriviti
+   link: iscriviti
+ - text: cisf23@ai-sf.it
+   link: mailto:cisf23@ai-sf.it
+
+
+slides:
+  - image: "img/CISF23GIF.gif"
+    style: full
+  - image: "img/palermo-fisica.jpeg"

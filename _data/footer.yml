@@ -1,0 +1,19 @@
+menu:
+  - text: "AISF"
+    link: "https://ai-sf.it"
+  - text: "Sponsor"
+    link: "sposor"
+  - text: "Iscriviti"
+    link: "iscriviti"
+  - text: "cisf23@ai-sf.it"
+    link: "mailto:cisf23@ai-sf.it"
+
+images:
+  - link: "img/ai-sf.png"
+    shape: "rect"
+  - link: "img/aisf-pa.png"
+    shape: "circle"
+  - link: "img/unipa.png"
+    shape: "circle"
+  - link: "img/difc.jpg"
+    shape: "circle"

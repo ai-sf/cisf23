@@ -1,0 +1,14 @@
+<footer {% if page.footer == "fixed"%} class="fixed" {% endif %}>
+  <div class="footer-images">
+    {% for image in site.data.footer.images %}
+    <img class="{{image.shape}}" src="{{image.link}}"><img>
+    {% endfor %}
+  </div>
+  <ul class="footer-menu">
+  {% for item in site.data.footer.menu %}
+      <li>
+        <a href="{{item.link}}">{{item.text}}</a>
+      </li>
+  {% endfor %}
+  </ul>
+</footer>
