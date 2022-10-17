@@ -8,7 +8,7 @@ columns:
 
   - width: s6 m6 l2 h1
     title: Giorno 1 - 12.04.2023
-    style: separated
+    style: separated small-collapse
     text:
     - title: 9:00 - 15:00
       subtitle: Accoglienza e registrazione
@@ -27,7 +27,7 @@ columns:
 
   - width: s6 m6  l2 h1
     title: Giorno 2 - 13.04.2023
-    style: separated
+    style: separated small-collapse
     par: p2
     text:
     - title: 9:00 - 15:00
@@ -47,18 +47,18 @@ columns:
 
   - width: s6 m6 l2 h1
     title: Giorno 3 - 14.04.2023
-    style: separated
+    style: separated small-collapse
     par: p2
     text: Attività
 
   - width: s6 m6 l2 h1
     title: Giorno 4 - 15.04.2023
-    style: separated
+    style: separated small-collapse
     par: p2
     text: Attività
 
   - width: s6 m6 l2 h1
     title: Giorno 5 - 16.04.2023
-    style: separated
+    style: separated small-collapse
     par: p2
     text: Attività

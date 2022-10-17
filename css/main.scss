@@ -82,11 +82,6 @@ p.p1 {
   line-height: 40px;
   margin-bottom: 36px;
 
-  @media screen and (max-width: $small){
-    font-size: 18px;
-    line-height: 22px;
-
-  }
 }
 
 p:last-child{
@@ -882,10 +877,24 @@ ul.accordion{
   }
 
   &.small-collapse{
+
+    margin-top: 0px;
+    margin-bottom: -6px;
     @media screen and (max-width: $small){
       .column-content{
         display: none;
       }
+
+      &.active{
+        .column-content{
+          display: block;
+        }
+
+        .column-header{
+          background-color: $accent;
+          color: #fff;
+        }
+    }
     }
   }
 
