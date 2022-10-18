@@ -1,19 +1,53 @@
 columns:
-  - width: 1
+  - width: h1 l6 m6 s6
     style: top
     title: Iscrizioni
     par: p2
-  - width: 4
-    style: top
-    par: p1
-    text:
-    title: Termini e condizioni
+    text: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
 
-  - width: 1
-    style: full top
+  - width: h2 l3 m3 s6
+    style: separated info-spaced unspaced
+    par: p2
     title: Quanti di informazione
+    text:
+      - title: Chiusura iscrizioni <br/>8 gennaio 2023 Ore 24:00
+      - title: Esito selezione <br/> Entro 7 giorni tramite e-mail
+      - title: Pagamento iscrizione <br/> Entro e non oltre 10 giorni Ricezione e-mail pena esclusione
+      - info:
+          - La selezione dei partecipanti sarà effettuata dal Comitato Organizzatore della CISF2023 in collaborazione con il Comitato Esecutivo AISF. La lettera di motivazione, da inserire nel presente modulo di registrazione, pur rimanendo facoltativa, sarà un importante elemento di valutazione.
+          - Una volta definiti i partecipanti all’evento verrà pianificato il calendario delle sezioni talk studenti. Non è garantito che tutti i contributi scientifici (colloqui e poster) potranno essere accettati.
+
+  - width: h2 l3 m3 s6
+    style: separated info-spaced unspaced
+    title: Quota di iscrizione
     par: p2
     text:
+      - title: 150 posti disponibili
+      - title: 100 € Ostello 4 notti
+      - title: 50 € Senza ostello
+      - subtitle: LE QUOTE COMPRENDONO
+      - title: Pranzo Gio, Ven, Sab <br/> Cena sociale + Coffee break
+      - title: Trasferimento ad Erice
+      - title: Kit di benvenuto
+      - title: Spese di viaggio per le conferenze
+      - title: Assicurazione
+      - title: Pranzo Mer e Dom
+      - info:
+          - Il Comitato Organizzatore si sta impegnando al fine di abbassare le quote di partecipazione. Tale modificazione verrà comunicata entro 7 giorni dalla chiusura delle iscrizioni.
+          - Per chi non è ancora membro AISF la registrazione all’evento comprenderà, al costo di 5 euro (10 euro per gli studenti di dottorato), l’iscrizione all’Associazione per l’anno 2022/2023.
+          - Per info consultare <a class="underline" href="https://ai-sf.it/iscrizione/">https://ai-sf.it/iscrizione/</a>.
+          - La quota di iscrizione ad AISF include la membership IAPS (International Association of Physics Students) di cui AISF è National Committee per l’Italia.
+
+
+
+
+  - width: h1 l6 m6 s6
+    style: unspaced buttons
+    text:
+    - button: on
+      text: Termini e condizioni
+      link: https://www.google.it
     - button: on
       text: Iscriviti
-      link: www.google.it
+      style: primary
+      link: https://www.google.it

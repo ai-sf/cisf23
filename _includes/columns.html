@@ -16,7 +16,7 @@
       {% for p in column.text %}
         <div class="{{p.color}}">
           {% if p.button%}
-            <a class="button full-width primary" href="{{p.link}}">{{p.text}}</a>
+            <a class="button {{p.style}}" href="{{p.link}}">{{p.text}}</a>
           {% else %}
 
             {% if p.section %}
@@ -30,7 +30,7 @@
                 </div>
               {% endif %}
               {% if p.first %}
-                <p>{{p.title}}</p>
+                {% if p.title %} <p>{{p.title}}</p> {% endif %}
                 {% if p.subtitle %}
                   <h3>{{p.subtitle}}</h3>
                 {% endif %}
@@ -60,7 +60,7 @@
                   </div>
                 {% endif %}
               {% else %}
-                {{p}}
+                <p class="{{column.par}}">{{p}}</p>
               {% endif %}
             {% endif %}
           {% endif %}
