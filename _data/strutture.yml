@@ -6,94 +6,106 @@ columns:
     text:
     - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
 
-  - width: h1 m6 s6
+  - width: h2 m6 s6
     title: Unipa
-    style: separated medium-row small-collapse
+    style: separated big-row medium-row small-collapse
     text:
+    - title: Via Archirafi
+      image: img/strutture/archirafi.png
+      info:
+        - Via Archirafi, 36
+        - text: Sito web
+          link: https://www.unipa.it/dipartimenti/difc/luoghi.html
+          type: button
+        - text: Posizione
+          type: button
+          link: https://goo.gl/maps/no57AofTavNpcbgx9
     - title: Edificio 18
-      image: img/cattedrale-di-palermo_fb.jpg
+      image: img/strutture/EDIFICIO18.jpg
       info:
-        - Indirizzo
-        - text: Sito web
-          link: https://www.google.com
+        - Viale delle Scienze Parco d’Orléans II, Ed. 18
+        - text: Sito
+          link: https://www.unipa.it/dipartimenti/difc/luoghi.html
           type: button
         - text: Posizione
           type: button
-          link: https://www.google.com
-    - title: Edificio 22
-      image: img/cattedrale-di-palermo_fb.jpg
+          link: https://goo.gl/maps/5LrgBsUiZbuz1mzA9
+    - title: ATeN Center
+      image: img/strutture/ATeN_Center.jpeg
       info:
-        - Indirizzo
-        - text: Sito web
+        - Viale delle Scienze, Ed. 18A
+        - text: Sito
+          link: https://www.unipa.it/servizi/atencenter/
           type: button
         - text: Posizione
           type: button
+          link: https://goo.gl/maps/sZvpEtzNtj115n3d8
 
   - width: h2 m6 s6
     title: Palermo
     style: separated big-row medium-row small-collapse
     par: p2
     text:
-    - title: Edificio 18
-      image: img/cattedrale-di-palermo_fb.jpg
+    - title: Villa Filippina
+      image: img/strutture/VILLA FILIPPINA.jpg
       info:
-        - Indirizzo
+        - Piazza S. Francesco di Paola, 18
         - text: Sito web
-          link: https://www.google.com
+          link: https://villafilippina.organizzatori.18tickets.it
           type: button
         - text: Posizione
           type: button
-          link: https://www.google.com
-    - title: Edificio 22
-      image: img/cattedrale-di-palermo_fb.jpg
+          link: https://goo.gl/maps/B8tzuUuM4YRm4EH76
+
+    - title: Palazzo Chiaramonte-Steri
+      image: img/strutture/Palermo-Palazzo-Chiaramonte-bjs2007-01.jpg
       info:
-        - Indirizzo
+        - Piazza Marina, 60
         - text: Sito web
+          link: http://juicedjuiced14.altervista.org/palazzo_chiaramonte/home.html
           type: button
         - text: Posizione
           type: button
-    - title: Edificio 18
-      image: img/cattedrale-di-palermo_fb.jpg
-      info:
-        - Indirizzo
-        - text: Sito web
-          link: https://www.google.com
-          type: button
-        - text: Posizione
-          type: button
-          link: https://www.google.com
-    - title: Edificio 22
-      image: img/cattedrale-di-palermo_fb.jpg
-      info:
-        - Indirizzo
-        - text: Sito web
-          type: button
-        - text: Posizione
-          type: button
+          link: https://goo.gl/maps/BqwJKWdaugya1hrHA
 
 
-  - width: h2 m6 s6
+    - title: Orto Botanico
+      image: img/strutture/orto-botanico.jpg
+      info:
+        - Via Lincoln, 2
+        - text: Sito web
+          type: button
+          link: http://www.ortobotanico.unipa.it/
+        - text: Posizione
+          type: button
+          link: https://goo.gl/maps/4GbZ1ZenhRstQTNd9
+
+    - title: Osservatorio Astronomico
+      image: img/strutture/Osservatorio.jpg
+      info:
+        - Piazza del Parlamento, 1
+        - text: Sito web
+          link: https://www.astropa.inaf.it/
+          type: button
+        - text: Posizione
+          type: button
+          link: https://goo.gl/maps/Cni2NQ8we5JZwbVe8
+
+
+  - width: h1 m6 s6
     style: separated
     par: p2
     title: Erice
-    style: separated big-row medium-row small-collapse
+    style: separated medium-row small-collapse
     par: p2
     text:
-    - title: Edificio 18
-      image: img/cattedrale-di-palermo_fb.jpg
+    - title: Istituto Majorana
+      image: img/strutture/MAJORANA.jpg
       info:
-        - Indirizzo
+        - Via Gian Filippo Guarnotti, 26
         - text: Sito web
-          link: https://www.google.com
+          link: http://www.ccsem.infn.it
           type: button
         - text: Posizione
           type: button
-          link: https://www.google.com
-    - title: Edificio 22
-      image: img/cattedrale-di-palermo_fb.jpg
-      info:
-        - Indirizzo
-        - text: Sito web
-          type: button
-        - text: Posizione
-          type: button
+          link: https://goo.gl/maps/PV715GmcNPvpCVP69

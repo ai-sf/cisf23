@@ -12,7 +12,7 @@ columns:
     text:
     - title: 9:00 - 15:00
       subtitle: Accoglienza e registrazione
-      footer: Aula A
+ #     footer: Aula
     - title: 15:00 - 17:00
       subtitle: Cerimonia di apertura
       info:
@@ -22,7 +22,21 @@ columns:
         - Saluti del Coordinatore
         - Saluti del Presidente AISF
         - Saluti del Presidente LC
-      footer: Aula A
+      color: colored
+    - title: 17:00 - 17:30
+      subtitle: Coffee Break
+    - title: 17:30 - 19:30
+      subtitle: Sessione plenaria I
+      info:
+        - prof.ssa Eleonora Troìa
+        - dott. Alessio Marino
+      footer: Sede Storica - Aula A
+      color: colored
+    - title: 19:30 - 21:30
+      subtitle: Cena libera
+    - title: dalle 21:30
+      subtitle: Botta di Coulomb
+      footer: Via Filippina
       color: colored
 
   - width: s6 m6  l2 h1
@@ -30,35 +44,108 @@ columns:
     style: separated small-collapse
     par: p2
     text:
-    - title: 9:00 - 15:00
-      subtitle: Accoglienza e registrazione
-      footer: Aula A
-    - title: 15:00 - 17:00
-      subtitle: Cerimonia di apertura
+    - title: 9:00 - 13:00
+      subtitle: Parallel session <br/>Visite e Workshop
       info:
-        - Saluti del Rettore
-        - Saluti del Direttore
-        - Saluti Delegato alla Ricerca
-        - Saluti del Coordinatore
-        - Saluti del Presidente AISF
-        - Saluti del Presidente LC
-      footer: Aula A
-
+       - INAF + Osservatorio
+       - ATeN Center
+       - INFN
+      color: colored
+    - title: 13:00 - 15:00
+      subtitle: Pranzo in mensa
+    - title: 15:00 - 17:00
+      color: colored
+      subtitle: Sessione plenaria II
+      info:
+        - prof. Mauro Paternostro
+        - dott. Giuseppe Calajo
+        - dott. Luca Innocenti
+      footer: Edificio 18 - Aula Magna
+    - title: 17:30 - 18:00
+      subtitle: Coffee Break
+    - title: 18:00 - 20:00
+      subtitle: Tempo libero
+    - title: 20:00 - 22:00
+      subtitle: Cena sociale
+      color: colored
+    - title: dalle 22:00
+      subtitle: Serata libera
 
   - width: s6 m6 l2 h1
     title: Giorno 3 - 14.04.2023
     style: separated small-collapse
     par: p2
-    text: Attività
+    text:
+      - title: 09:00 - 10:00
+        subtitle: Trasferimento Palermo - Erice
+      - title: 10:00 - 10:30
+        subtitle: Coffee Break
+      - title: 10:30 - 11:30
+        subtitle: Workshop AISF
+      - title: 11:30 - 13:00
+        subtitle: Visite organizzate
+      - title: 13:00 - 14:00
+        subtitle: Pranzo organizzato
+      - title: 14:00 - 18:30
+        subtitle: AGA
+        footer: Centro di Cultura Scientifica - Ettore Majorana, Erice
+        color: colored
+      - title: 18:30 - 20:30
+        subtitle: Trasferimento Erice-Palermo
+      - title: dalle 20:30
+        subtitle: Tempo libero
 
   - width: s6 m6 l2 h1
     title: Giorno 4 - 15.04.2023
     style: separated small-collapse
     par: p2
-    text: Attività
+    text:
+      - title: 9:00 - 11:00
+        subtitle: Sessione plenaria III
+        color: colored
+        info:
+          - dott.ssa Alice Sciortino
+          - dott. Giuseppe Sancataldo
+        footer: Sede storica - Aula A
+      - title: 11:00 - 11:30
+        subtitle: Coffee Break
+      - title: 11:30 - 13:30
+        subtitle: Sessione Plenaria IV
+        color: colored
+        info:
+          - dott.ssa Olga Milazzo
+          - dott.ssa Giulia Termini
+        footer: Sede storica - Aula A
+      - title: 13:30 - 15:00
+        subtitle: Pranzo organizzato
+      - title: 15:00 - 18:30
+        subtitle: Sessione parallela
+        color: colored
+        footer: Orto Botanico
+      - title: 18:30 - 21:30
+        subtitle: Tempo libero e cena libera
+      - title: dalle 21:30
+        subtitle: Serata allo Steri
+        color: colored
+        footer: Palazzo Chiaramonte
+
+
 
   - width: s6 m6 l2 h1
     title: Giorno 5 - 16.04.2023
     style: separated small-collapse
     par: p2
-    text: Attività
+    text:
+      - title: 9:30 - 11:30
+        subtitle: Sessione Plenaria V
+        color: colored
+        info:
+          - prof. Rosario Nunzio Mantegna
+          - dott. Federico Musciotto
+        footer: Sede storica - Aula A
+      - title: 11:30 - 12:00
+        subtitle: Coffee Break
+      - title: 12:00 - 13:30
+        subtitle: Cerimonia di Chiusura
+        color: colored
+
