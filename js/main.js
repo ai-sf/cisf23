@@ -26,7 +26,6 @@ $(document).ready(function () {
     $(".gray:not(.active)").fadeIn();
     $(".gray.active").fadeOut();
     $(".gray").toggleClass("active");
-    $('html, body').toggleClass("unscrollable");
   });
 
 
@@ -41,6 +40,12 @@ $(document).ready(function () {
 
   $(".column.small-collapse").accordion(".column");
   $(".accordion li").accordion(".item");
+
+  $(".gray").on("click", function () {
+    $(".hamburger").removeClass("active");
+    $(".nav-menu").removeClass("active");
+    $(".gray").fadeOut().removeClass("active");
+  });
 
 
 });

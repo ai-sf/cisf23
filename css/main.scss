@@ -9,6 +9,18 @@ $big: 1000px;
 $medium:  800px;
 $small: 600px;
 
+// hamburger
+$width-desktop: 138px;
+$width-mobile: 70px;
+$margin: 15px;
+$height-desktop: 3px;
+$height-mobile: 3px;
+$angle-mobile: 40deg;
+$angle-desktop: 30deg;
+
+$translate-desktop: $height-desktop + $margin;
+$translate-mobile: $height-mobile + $margin;
+
 @import "font";
 :root{
   --borderstyle: solid 3px #{$accent};
@@ -37,28 +49,35 @@ body {
   font-family: GeneralSans;
   font-weight: 700;
   height: 100%;
+  z-index: -1;
+}
+
+html{
   overflow-x: hidden;
+  @media screen and (min-width: $small){
+    padding-top: 123px;
+  }
 }
 
 .gray{
+
   background-color: $accent;
   position: fixed;
-  z-index: 400;
-  top:120px;
+  z-index: 800;
+  top:123px;
   left: 0;
-  width: 100%;
+  right: 0;
+  padding-right: 480px;
   height:100%;
   opacity: 0.7;
   display: none;
 }
 
 .gray.active{
-  display: block;
-}
-
-.unscrollable{
-  overflow-y:hidden;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 
@@ -99,8 +118,8 @@ ul.nav-menu{
   display: flex;
   position: fixed;
   right: -500px;
-  top:0px;
-  padding-top:123px;
+  top:123px;
+
   gap: 0;
   flex-direction: column;
   justify-content: space-between;
@@ -110,7 +129,7 @@ ul.nav-menu{
   max-width: 100%;
   transition: 0.3s;
   height:calc(100% - 123px);
-  z-index: 500;
+  z-index: 999;
 
   li{
     width: 100%;
@@ -155,16 +174,27 @@ ul.nav-menu{
 
 nav.navbar{
     height: 120px;
+    padding-left: 22px;
+    padding-right: 33px;
+
+    background-color: #fff;
     border-bottom:solid $accent;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 22px;
-    z-index: 999;
-    position: relative;
-    padding-right: 33px;
-    overflow-x: hidden;
 
+    z-index: 800;
+    @media screen and (min-width: $small){
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    }
+    @media screen and (max-width: #{$small+1}){
+      position: relative;
+    }
+    overflow-x: hidden;
 
 
     .hamburger{
@@ -172,15 +202,16 @@ nav.navbar{
       display: block;
       .bar{
         display: block;
-        width: 138px;
-        height: 3px;
-        margin: 15px auto;
+        width: $width-desktop;
+        height: $height-desktop;
+        margin: $margin auto;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
         background-color: $accent;
 
         @media screen and (max-width: $small){
-          width: 70px;
+          width: $width-mobile;
+          height: $height-mobile;
         }
       }
     }
@@ -192,15 +223,15 @@ nav.navbar{
       }
       .bar:nth-child(1){
 
-        transform: translateY(20px) rotate(30deg);
+        transform: translateY($translate-desktop) rotate($angle-desktop);
         @media screen and (max-width: $small){
-          transform:  translateY(18px) rotate(40deg);
+          transform:  translateY($translate-mobile) rotate($angle-mobile);
         }
       }
       .bar:nth-child(3){
-        transform: translateY(-20px) rotate(-30deg);
+        transform: translateY(-19px) rotate(-30deg);
         @media screen and (max-width: $small){
-          transform:  translateY(-18px) rotate(-40deg);
+          transform:  translateY(-19px) rotate(-40deg);
         }
       }
 
@@ -701,6 +732,7 @@ ul.accordion{
     box-sizing: border-box;
     justify-content: stretch;
     align-items: stretch;
+    overflow-x: hidden;
 
     @media screen and (min-width: $large){
       overflow-y: scroll;
@@ -1034,9 +1066,9 @@ span.text-item{
 
 @media screen and (min-width: #{$big +1}){
 body.fixed-footer{
-   .row{
+   .row, .row-container{
     box-sizing: border-box;
-  height: calc(100% - 120px) !important;
+    height: calc(100% - 120px) !important;
    }
 }
 }
