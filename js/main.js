@@ -29,7 +29,7 @@ $(document).ready(function () {
       $(".gray").delay(200).fadeOut().removeClass("active");
     } else {
       i = Math.floor(Math.random() * 5 +1);
-      $(".gray img").attr({ "src": "img/menu/image-0"+i+".png"});
+      $(".gray img").attr({ "src": "img/menu/image-0"+i+".svg"});
       $(".gray").fadeIn().addClass("active");
       $(".gray img").delay(300).animate({ opacity: 1 });
     }
