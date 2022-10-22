@@ -22,7 +22,7 @@ columns:
         - Saluti del Coordinatore
         - Saluti del Presidente AISF
         - Saluti del Presidente LC
-      color: colored
+      color: colored-light
     - title: 17:00 - 17:30
       subtitle: Coffee Break
     - title: 17:30 - 19:30
@@ -37,7 +37,7 @@ columns:
     - title: dalle 21:30
       subtitle: Botta di Coulomb
       footer: Via Filippina
-      color: colored
+      color: colored-light
 
   - width: s6 m6  l2 h1
     title: Giorno 2 - 13.04.2023
@@ -50,7 +50,7 @@ columns:
        - INAF + Osservatorio
        - ATeN Center
        - INFN
-      color: colored
+      color: colored-light
     - title: 13:00 - 15:00
       subtitle: Pranzo in mensa
     - title: 15:00 - 17:00
@@ -67,7 +67,7 @@ columns:
       subtitle: Tempo libero
     - title: 20:00 - 22:00
       subtitle: Cena sociale
-      color: colored
+      color: colored-light
     - title: dalle 22:00
       subtitle: Serata libera
 
@@ -89,7 +89,7 @@ columns:
       - title: 14:00 - 18:30
         subtitle: AGA
         footer: Centro di Cultura Scientifica - Ettore Majorana, Erice
-        color: colored
+        color: colored-light
       - title: 18:30 - 20:30
         subtitle: Trasferimento Erice-Palermo
       - title: dalle 20:30
@@ -126,7 +126,7 @@ columns:
         subtitle: Tempo libero e cena libera
       - title: dalle 21:30
         subtitle: Serata allo Steri
-        color: colored
+        color: colored-light
         footer: Palazzo Chiaramonte
 
 
@@ -147,5 +147,5 @@ columns:
         subtitle: Coffee Break
       - title: 12:00 - 13:30
         subtitle: Cerimonia di Chiusura
-        color: colored
+        color: colored-light
 

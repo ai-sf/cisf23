@@ -20,22 +20,21 @@ $.fn.accordion = function (cssclass) {
 var visible = 0;
 $(document).ready(function () {
   $(".gray").css({ display: "flex" }).hide();
+
+
   $(".hamburger").on("click", function () {
 
+    i = Math.floor(Math.random() * 6 + 1);
+    $(".gray:not(.active) img").attr({ "src": "img/menu/image-0" + i + ".svg" });
     $(".hamburger").toggleClass("active");
     $(".nav-menu").toggleClass("active");
-    if (visible) {
-      $(".gray img").animate({ opacity: 0 });
-      $(".gray").delay(200).fadeOut().removeClass("active");
-    } else {
-      i = Math.floor(Math.random() * 5 +1);
-      $(".gray img").attr({ "src": "img/menu/image-0"+i+".svg"});
-      $(".gray").fadeIn().addClass("active");
-      $(".gray img").delay(300).animate({ opacity: 1 });
-    }
 
-    $(".gray").toggleClass("active");
-    visible = 1 - visible;
+    $(".gray:not(.active) img").delay(300);
+    $(".gray img").animate({ opacity: 1 - $(".gray img").css("opacity") });
+
+    $(".gray.active").delay(300);
+    $(".gray").fadeToggle().toggleClass("active");
+
   });
 
 

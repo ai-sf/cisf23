@@ -1,0 +1,77 @@
+columns:
+  - width: h1 m6 s6
+    title: Sponsor
+    style: spaced top
+    par: p2
+    text:
+   # - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
+
+  - width: h2 m6 s6
+    title: Sponsor
+    style: separated big-row medium-row small-collapse image-circle
+    text:
+    - title: Orsa
+      image: img/sponsor/orsa.png
+      info:
+        - text: Sito web
+          link: https://orsapa.org/
+          type: button
+
+    - title: DiFC
+      image: img/sponsor/difc.png
+      info:
+        - text: Sito web
+          link: https://www.unipa.it/dipartimenti/difc
+          type: button
+
+    - title: Vabres
+      image: img/sponsor/vabres.png
+      info:
+        - text: Sito web
+          link: https://www.pasticceriavabres.com/
+          type: button
+
+    - title: Cartoleria La Fenice
+      image: img/sponsor/lafenice.jpg
+      info:
+        - text: Sito web
+          link: https://lafenicecartolibreria.it/
+          type: button
+
+
+
+
+  - width: h2 m6 s6
+    title: Patrocini
+    style: separated big-row medium-row small-collapse image-circle
+    par: p2
+    text:
+    - title: Palermo
+      image: img/sponsor/palermo.png
+      info:
+        - text: Sito web
+          link: https://www.comune.palermo.it/
+          type: button
+
+    - title: Addio Pizzo
+      image: img/sponsor/addiopizzo.png
+      info:
+        - text: Sito web
+          link: https://addiopizzo.org/
+          type: button
+
+
+  - width: h1 m6 s6
+    style: separated
+    par: p2
+    title: Collaborazioni
+    style: separated medium-row small-collapse image-circle
+    par: p2
+    text:
+    - title: Abapa
+      image: img/sponsor/abapa.png
+      info:
+        - text: Sito web
+          link: https://www.accademiadipalermo.it/
+          type: button
+
