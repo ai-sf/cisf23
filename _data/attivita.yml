@@ -11,21 +11,21 @@ columns:
     style: separated big-row medium-row small-collapse
     text:
     - title: Infn
-      image: img/strutture/archirafi.png
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#infn-info"
 
     - title: Osservatorio
-      image: img/strutture/EDIFICIO18.jpg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#osservatorio-info"
 
     - title: ATeN
-      image: img/strutture/ATeN_Center.jpeg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -38,7 +38,7 @@ columns:
     par: p2
     text:
     - title: Botta di Coulomb
-      image: img/strutture/VILLA FILIPPINA.jpg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -46,7 +46,7 @@ columns:
 
 
     - title: Cena sociale
-      image: img/strutture/Palermo-Palazzo-Chiaramonte-bjs2007-01.jpg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -55,7 +55,7 @@ columns:
 
 
     - title: Serata allo Steri
-      image: img/strutture/orto-botanico.jpg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -71,21 +71,21 @@ columns:
     par: p2
     text:
     - title: Erice
-      image: img/strutture/MAJORANA.jpg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#erice-info"
 
     - title: Workshop AISF
-      image: img/strutture/MAJORANA.jpg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#workshop-info"
 
     - title: Visita organizzata
-      image: img/strutture/MAJORANA.jpg
+      image: img/attivita/evento.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
