@@ -7,7 +7,7 @@ columns:
     #- section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
 
   - width: s6 m6 l2 h1
-    title: Giorno 1 - 12.04.2023
+    title: Mercoledì 12.04.2023
     style: separated small-collapse
     text:
     - title: 9:00 - 15:00
@@ -28,8 +28,12 @@ columns:
     - title: 17:30 - 19:30
       subtitle: Sessione plenaria I
       info:
-        - prof.ssa Eleonora Troìa
-        - dott. Alessio Marino
+        - text: prof.ssa Eleonora Troìa
+          type: popup-trigger
+          action: "#troia-info"
+        - text: dott. Alessio Marino
+          type: popup-trigger
+          action: "#marino-info"
       footer: Sede Storica - Aula A
       color: colored
     - title: 19:30 - 21:30
@@ -40,7 +44,7 @@ columns:
       color: colored-light
 
   - width: s6 m6  l2 h1
-    title: Giorno 2 - 13.04.2023
+    title: Giovedì 13.04.2023
     style: separated small-collapse
     par: p2
     text:
@@ -57,9 +61,15 @@ columns:
       color: colored
       subtitle: Sessione plenaria II
       info:
-        - prof. Mauro Paternostro
-        - dott. Giuseppe Calajo
-        - dott. Luca Innocenti
+        - text: prof. Mauro Paternostro
+          type: popup-trigger
+          action: "#paternostro-info"
+        - text: dott. Giuseppe Calajo
+          type: popup-trigger
+          action: "#calajo-info"
+        - text: dott. Luca Innocenti
+          type: popup-trigger
+          action: "#innocenti-info"
       footer: Edificio 18 - Aula Magna
     - title: 17:30 - 18:00
       subtitle: Coffee Break
@@ -72,7 +82,7 @@ columns:
       subtitle: Serata libera
 
   - width: s6 m6 l2 h1
-    title: Giorno 3 - 14.04.2023
+    title: Venerdì 14.04.2023
     style: separated small-collapse
     par: p2
     text:
@@ -96,7 +106,7 @@ columns:
         subtitle: Tempo libero
 
   - width: s6 m6 l2 h1
-    title: Giorno 4 - 15.04.2023
+    title: Sabato 15.04.2023
     style: separated small-collapse
     par: p2
     text:
@@ -104,8 +114,12 @@ columns:
         subtitle: Sessione plenaria III
         color: colored
         info:
-          - dott.ssa Alice Sciortino
-          - dott. Giuseppe Sancataldo
+          - text: dott.ssa Alice Sciortino
+            type: popup-trigger
+            action: "#sciortino-info"
+          - text: dott. Giuseppe Sancataldo
+            type: popup-trigger
+            action: "#sancataldo-info"
         footer: Sede storica - Aula A
       - title: 11:00 - 11:30
         subtitle: Coffee Break
@@ -113,8 +127,12 @@ columns:
         subtitle: Sessione Plenaria IV
         color: colored
         info:
-          - dott.ssa Olga Milazzo
-          - dott.ssa Giulia Termini
+          - text: dott.ssa Olga Milazzo
+            type: popup-trigger
+            action: "#milazzo-info"
+          - text: dott.ssa Giulia Termini
+            type: popup-trigger
+            action: "#termini-info"
         footer: Sede storica - Aula A
       - title: 13:30 - 15:00
         subtitle: Pranzo organizzato
@@ -132,7 +150,7 @@ columns:
 
 
   - width: s6 m6 l2 h1
-    title: Giorno 5 - 16.04.2023
+    title: Domenica 16.04.2023
     style: separated small-collapse
     par: p2
     text:
@@ -140,8 +158,12 @@ columns:
         subtitle: Sessione Plenaria V
         color: colored
         info:
-          - prof. Rosario Nunzio Mantegna
-          - dott. Federico Musciotto
+          - text: prof. Rosario Nunzio Mantegna
+            type: popup-trigger
+            action: "#mantegna-info"
+          - text: dott. Federico Musciotto
+            type: popup-trigger
+            action: "#musciotto-info"
         footer: Sede storica - Aula A
       - title: 11:30 - 12:00
         subtitle: Coffee Break

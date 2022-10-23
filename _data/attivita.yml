@@ -1,0 +1,139 @@
+columns:
+  - width: h1 m6 s6
+    title: Attività
+    style: spaced top
+    par: p2
+    text:
+   # - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
+
+  - width: h2 m6 s6
+    title: Visite e workshop
+    style: separated big-row medium-row small-collapse
+    text:
+    - title: Infn
+      image: img/strutture/archirafi.png
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#infn-info"
+
+    - title: Osservatorio
+      image: img/strutture/EDIFICIO18.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#osservatorio-info"
+
+    - title: ATeN
+      image: img/strutture/ATeN_Center.jpeg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#aten-info"
+
+
+  - width: h2 m6 s6
+    title: Serate
+    style: separated big-row medium-row small-collapse
+    par: p2
+    text:
+    - title: Botta di Coulomb
+      image: img/strutture/VILLA FILIPPINA.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#bdc-info"
+
+
+    - title: Cena sociale
+      image: img/strutture/Palermo-Palazzo-Chiaramonte-bjs2007-01.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#cena-info"
+
+
+
+    - title: Serata allo Steri
+      image: img/strutture/orto-botanico.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#steri-info"
+
+
+
+  - width: h1 m6 s6
+    style: separated
+    par: p2
+    title: Gita
+    style: separated medium-row small-collapse
+    par: p2
+    text:
+    - title: Erice
+      image: img/strutture/MAJORANA.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#erice-info"
+
+    - title: Workshop AISF
+      image: img/strutture/MAJORANA.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#workshop-info"
+
+    - title: Visita organizzata
+      image: img/strutture/MAJORANA.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#visita-info"
+
+popups:
+  - id: "infn-info"
+    title: "Infn"
+    content:
+     - text: "Blablablablablabla"
+  - id: "osservatorio-info"
+    title: "Osservatorio"
+    content:
+     - text: "Blablablablablabla"
+
+  - id: "aten-info"
+    title: "ATeN"
+    content:
+     - text: "Blablablablablabla"
+
+  - id: "bdc-info"
+    title: "Botta di Coulomb"
+    content:
+     - text: "Blablablablablabla"
+
+  - id: "cena-info"
+    title: "Cena sociale"
+    content:
+     - text: "Blablablablablabla"
+
+  - id: "steri-info"
+    title: "Serata allo Steri"
+    content:
+     - text: "Blablablablablabla"
+
+  - id: "erice-info"
+    title: "Erice"
+    content:
+     - text: "Blablablablablabla"
+
+  - id: "workshop-info"
+    title: "Workshop AISF"
+    content:
+     - text: "Blablablablablabla"
+
+  - id: "visita-info"
+    title: "Visita organizzata"
+    content:
+     - text: "Blablablablablabla"
+
+

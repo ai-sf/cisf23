@@ -1,0 +1,199 @@
+columns:
+  - width: h1 m6 s6
+    title: Speaker
+    style: spaced top
+    par: p2
+    text:
+   # - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
+
+  - width: h1 m6 s6
+    title: Sessione plenaria 1
+    style: separated medium-row small-collapse image-circle
+    text:
+    - title: Prof.ssa Elenora Troìa
+      image: img/speaker/troia.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#troia-info"
+    - title: Dott. Alessio Marino
+      image: img/speaker/speaker.svg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#marino-info"
+
+  - width: h1 m6 s6
+    title: Sessione plenaria 2
+    style: separated medium-row small-collapse image-circle
+    text:
+    - title: Prof. Mauro Paternostro
+      image: img/speaker/paternostro.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#paternostro-info"
+    - title: Dott. Giuseppe Calajò
+      image: img/speaker/calajo.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#calajo-info"
+    - title: Dott. Luca Innocenti
+      image: img/speaker/speaker.svg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#innocenti-info"
+
+  - width: h1 m6 s6
+    title: Sessione plenaria 3
+    style: separated medium-row small-collapse image-circle
+    text:
+    - title: Dott. Giuseppe Sancataldo
+      image: img/speaker/speaker.svg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#sancataldo-info"
+    - title: Prof.ssa Alice Sciortino
+      image: img/speaker/sciortino.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#sciortino-info"
+
+  - width: h1 m6 s6
+    title: Sessione plenaria 1
+    style: separated medium-row small-collapse image-circle
+    text:
+    - title: Dott.ssa Olga Milazzo
+      image: img/speaker/speaker.svg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#milazzo-info"
+    - title: Dott.ssa Giulia Termini
+      image: img/speaker/speaker.svg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#termini-info"
+
+  - width: h1 m6 s6
+    title: Sessione plenaria 1
+    style: separated medium-row small-collapse image-circle
+    text:
+    - title: Prof. Nunzio Rosario Mantegna
+      image: img/speaker/mantegna.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#mantegna-info"
+
+    - title: Prof. Federico Musciotto
+      image: img/speaker/speaker.svg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#musciotto-info"
+
+
+popups:
+  - id: "troia-info"
+    title: "Prof.ssa Elenora Troìa"
+    image: img/speaker/troia.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras libero risus, luctus ac ullamcorper ac, finibus egestas ex. Maecenas posuere felis quis elit pharetra, nec mattis massa euismod. Sed consequat nibh quis risus auctor consectetur. Integer urna augue, egestas ac quam quis, ultricies mollis sem. Praesent faucibus sed erat et mollis. Duis in dui sit amet enim gravida commodo et id dolor. Vestibulum quis eleifend lacus. Praesent orci ante, feugiat et odio nec, ultricies interdum mi. In dolor nulla, sagittis et lacinia vel, ultrices vitae nisi. Phasellus faucibus est vitae orci elementum, non scelerisque augue vulputate. Nulla nulla ipsum, commodo quis diam eget, blandit lacinia turpis. Sed iaculis libero vehicula, pellentesque orci eu, efficitur ex. Praesent eleifend imperdiet erat a tempor. Morbi et felis ligula. Vestibulum lacinia rhoncus justo, quis tincidunt nibh semper et. Fusce tincidunt lacinia mauris, ornare venenatis tellus pellentesque vitae. Vestibulum sit amet faucibus nisl, id sodales risus. Nam fringilla elit ac sodales cursus. Integer varius neque arcu, ac ornare urna malesuada quis. Proin metus felis, sollicitudin eu turpis eget, consequat venenatis nibh. Quisque vulputate, augue non convallis semper, enim mauris suscipit nisi, a condimentum erat ipsum semper metus.
+  - id: "marino-info"
+    title: "Dott. Alessio Marino"
+    image: img/speaker/marino.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "paternostro-info"
+    title: "Prof. Mauro Paternostro"
+    image: img/speaker/paternostro.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "calajo-info"
+    title: "Dott. Giuseppe Calajò"
+    image: img/speaker/calajo.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "innocenti-info"
+    title: "Dott. Luca Innocenti"
+    image: img/speaker/innocenti.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "sancataldo-info"
+    title: "Dott. Giuseppe Sancataldo"
+    image: img/speaker/sancataldo.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "sciortino-info"
+    title: "Prof.ssa Alice Sciortino"
+    image: img/speaker/sciortino.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "milazzo-info"
+    title: "Dott.ssa Olga Milazzo"
+    image: img/speaker/milazzo.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "termini-info"
+    title: "Dott.ssa Giulia Termini"
+    image: img/speaker/termini.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "mantegna-info"
+    title: "Prof. Nunzio Rosario Mantegna"
+    image: img/speaker/mantegna.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla
+
+  - id: "musciotto-info"
+    title: "Prof. Federico Musciotto"
+    image: img/speaker/musciotto.jpg
+    content:
+     - title: Biografia
+       text: Blablabla
+     - title: Abstract
+       text: Blablabla

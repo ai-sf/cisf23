@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M184.21,708.91V352.23c0-6.6,5.4-12,12-12H883.79c6.6,0,12,5.4,12,12v356.68"/>
+  <line class="cls-1" x1="723.83" y1="340.23" x2="723.83" y2="540"/>
+  <circle class="cls-2" cx="723.83" cy="585.96" r="45.96"/>
+  <line class="cls-1" x1="631.91" y1="340.23" x2="631.91" y2="540"/>
+  <circle class="cls-2" cx="631.91" cy="585.96" r="45.96"/>
+  <line class="cls-1" x1="540" y1="340.23" x2="540" y2="540"/>
+  <circle class="cls-2" cx="540" cy="585.96" r="45.96"/>
+  <line class="cls-1" x1="356.17" y1="340.23" x2="282.88" y2="526.07"/>
+  <circle class="cls-2" cx="266.03" cy="568.83" r="45.96"/>
+  <line class="cls-1" x1="448.45" y1="340.23" x2="435.39" y2="539.57"/>
+  <circle class="cls-2" cx="432.39" cy="585.43" r="45.96"/>
+</svg>

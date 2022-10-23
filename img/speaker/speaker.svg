@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="91.44mm"
+   height="91.44mm"
+   version="1.1"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 170.49 170.49"
+   id="svg58"
+   sodipodi:docname="speaker.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview60"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.2309027"
+     inkscape:cx="83.374321"
+     inkscape:cy="223.22802"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Camada_x0020_1" />
+  <defs
+     id="defs50">
+    <style
+       type="text/css"
+       id="style48">  .fil0 {fill:#F0F0F0} .fil1 {fill:#011627;fill-rule:nonzero}  </style>
+  </defs>
+  <g
+     id="Camada_x0020_1"
+     inkscape:label="Camada 1">
+    <metadata
+       id="CorelCorpID_0Corel-Layer" />
+    <path
+       class="fil1"
+       d="m 85.257354,17.793689 c 9.683721,0 18.465016,3.92208 24.816696,10.291122 6.35169,6.351688 10.27378,15.132983 10.27378,24.816704 0,9.68372 -3.92209,18.465014 -10.27378,24.816702 -6.35168,6.351688 -15.132975,10.273768 -24.816696,10.273768 -9.683721,0 -18.465016,-3.92208 -24.816703,-10.273768 -6.351688,-6.351688 -10.273768,-15.132982 -10.273768,-24.816702 0,-9.683721 3.92208,-18.465016 10.273768,-24.816704 6.351687,-6.351687 15.132982,-10.291122 24.816703,-10.291122 z m 27.454566,78.545733 c -1.24951,-0.833008 -1.5966,-2.533733 -0.74624,-3.783246 0.83301,-1.249512 2.53374,-1.579244 3.78325,-0.746237 7.51443,5.032759 13.72728,11.870361 18.0138,19.888071 4.14769,7.72268 6.49052,16.52133 6.49052,25.82326 v 12.44305 c 0,1.50983 -1.23216,2.74199 -2.74198,2.74199 H 32.968734 c -1.509828,0 -2.741985,-1.23216 -2.741985,-2.74199 v -12.44305 c 0,-9.35399 2.377544,-18.20471 6.559939,-25.94474 4.338585,-8.03506 10.603501,-14.890021 18.169992,-19.905425 1.266867,-0.833008 2.950237,-0.485922 3.783246,0.763591 0.833008,1.266866 0.485922,2.950237 -0.763591,3.783246 -6.820254,4.529488 -12.477769,10.707628 -16.382495,17.944388 -3.748537,6.95909 -5.883121,14.92472 -5.883121,23.35894 v 9.70107 h 99.058561 v -9.70107 c 0,-8.3995 -2.11723,-16.33044 -5.83106,-23.25482 -3.87002,-7.2194 -9.47547,-13.38019 -16.24366,-17.909673 z m -6.50788,-64.401948 c -5.36249,-5.345136 -12.772793,-8.677168 -20.946686,-8.677168 -8.173893,0 -15.584195,3.314678 -20.946686,8.677168 -5.362491,5.362491 -8.677169,12.755439 -8.677169,20.946686 0,8.173893 3.314678,15.584196 8.677169,20.946685 5.362491,5.362491 12.755438,8.67717 20.946686,8.67717 8.173893,0 15.584196,-3.314679 20.946686,-8.67717 5.36249,-5.362489 8.67717,-12.772792 8.67717,-20.946685 0,-8.173893 -3.31468,-15.584195 -8.67717,-20.946686 z"
+       id="path55"
+       style="fill:#336fa2;fill-opacity:1;stroke-width:1.73544" />
+  </g>
+</svg>

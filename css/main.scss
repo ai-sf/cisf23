@@ -54,8 +54,9 @@ body {
 
 html{
   overflow-x: hidden;
-  @media screen and (min-width: $small){
+  @media screen and (min-width: $medium){
     padding-top: 123px;
+    box-sizing: border-box;
   }
 }
 
@@ -63,17 +64,25 @@ html{
 
   background-color:rgba($accent, 0.9);
   position: fixed;
+
   z-index: 800;
   top:123px;
   left: 0;
   right: 0;
   padding-right: 480px;
-  height:calc(100% - 123px);
+  bottom: 0px;
   display: none;
 
   justify-content: center;
   align-content: center;
   align-items: center;
+
+  &.higher{
+    top: 0px;
+    z-index: 950 !important;
+    padding-right: 600px;
+  }
+
   img {
     width: 80%;
     max-width: 500px;
@@ -110,7 +119,7 @@ p:last-child{
   margin-bottom: 0px;
 }
 
-p.p2 {
+.p2 {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 18px;
@@ -188,16 +197,23 @@ nav.navbar{
     align-items: center;
 
     z-index: 800;
-    @media screen and (min-width: $small){
+    @media screen and (min-width: $medium){
     position: fixed;
     right: 0;
     left: 0;
     top:0;
     }
-    @media screen and (max-width: #{$small+1}){
+    @media screen and (max-width: #{$medium+1}){
       position: relative;
     }
     overflow-x: hidden;
+
+    &.fixed{
+      position: fixed;
+      right: 0;
+      left: 0;
+      top:0;
+    }
 
 
     .hamburger{
@@ -307,7 +323,7 @@ footer{
   &.fixed{
     height: 120px;
     width: 100%;
-
+    background-color: #fff;
     left: 0px;
     border-top: solid 3px $accent;
     @media screen and (min-width: $large){
@@ -645,7 +661,12 @@ ul.accordion{
 
 .slideshow{
   width: 100%;
+  height: 100%;
+  @media screen and (max-width: $medium){
+
   height: calc(100% - 120px);
+  }
+
   position: relative;
 }
 
@@ -708,7 +729,7 @@ ul.accordion{
 
   @media screen and (min-width: $large){
     box-sizing: border-box;
-    height: calc(100% - 120px);
+    height: calc(100% + 6px);
   }
 }
 
@@ -767,24 +788,6 @@ ul.accordion{
         width: 100%;
         margin: 10px 0px;
       }
-      .image{
-        height: 0;
-        padding-top: 100%;
-        margin-bottom: 15px;
-        box-sizing: border-box;
-        position: relative;
-        overflow: hidden;
-
-        img{
-          width: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 100%;
-          object-fit: cover;
-
-        }
-      }
 
 
       &:not(.separated) > div {
@@ -799,6 +802,9 @@ ul.accordion{
       & > div.colored{
         background-color: rgba($accent, 0.9);
         color: #fff;
+        a:not(.button){
+          color: #fff;
+        }
       }
 
       & > div.colored-light{
@@ -822,6 +828,25 @@ ul.accordion{
 
         }
 
+        a:not(.button){
+          display: block;
+          width: fit-content;
+          font-size: 18px;
+          cursor: pointer;
+          line-height: 28px;
+          background-image: linear-gradient(#fff, #fff);
+          background-size: 0% 3px;
+          background-position-y: 100%;
+          background-position-x: 0%;
+          background-repeat: no-repeat;
+          transition: background-size 0.2s ease-in-out;
+          &:hover,
+          &:focus,
+          &:active {
+            background-size: 100% 3px;
+          }
+        }
+
       }
 
 
@@ -830,13 +855,7 @@ ul.accordion{
     margin-bottom: 20px;
   }
 
-  &.image-circle{
-    img{
-      border-radius: 50%;
-      border: var(--borderstyle);
-      box-sizing: border-box;
-    }
-  }
+
 
   &.separated{
     align-items: stretch;
@@ -847,6 +866,7 @@ ul.accordion{
 
     & .column-content{
       padding: 0px 10px;
+      overflow-x: hidden;
       @media screen and (min-width: $large){
         padding: 0px;
         overflow-y: scroll;
@@ -1082,9 +1102,9 @@ span.text-item{
 
 @media screen and (min-width: #{$big +1}){
 body.fixed-footer{
-   .row, .row-container{
+   .row-container{
     box-sizing: border-box;
-    height: calc(100% - 120px) !important;
+    height: calc(100% - 117px) !important;
    }
 }
 }
@@ -1106,4 +1126,119 @@ body.fixed-footer{
 .underline{
   text-decoration: underline;
   text-decoration-thickness: 3px;
+}
+
+
+.popup{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  z-index: 999;
+  box-sizing: border-box;
+  padding: 36px;
+  position: fixed;
+  top: 0;
+  right: -650px;
+  bottom: 0;
+  width: 600px;
+  max-width: 100%;
+  overflow-y: hidden;
+  transition: all 0.3s ease;
+  &.active{
+    right: 0px;
+  }
+
+  .popup-close{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    cursor: pointer;
+    i{
+      color: $accent;
+      font-size: 36px;
+    }
+  }
+
+  .popup-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+
+
+    .popup-header{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      .image{
+        padding: 15%;
+        height: 0;
+        position: relative;
+        margin: 0px;
+      }
+      margin-bottom: 30px;
+
+    }
+
+    .popup-content{
+      &::-webkit-scrollbar,
+      &.separated .column-content::-webkit-scrollbar{
+        display: none;
+      }
+
+      &::after{
+        content: '';
+        height: 100px;
+        width: 200px;
+        position: absolute;
+        bottom: 36px;
+        left: 0px;
+        width: 100%;
+        background-image: linear-gradient(rgba(#fff, 0) 0%, #fff 100%);
+      }
+
+      overflow-y: scroll;
+      h3{
+        margin-top: 10px;
+      }
+
+      p{
+        margin-top: 5px;
+        &:last-of-type{
+          padding-bottom: 100px;
+        }
+      }
+    }
+
+  }
+}
+
+
+
+.image{
+  height: 0;
+  padding-top: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+
+  img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+
+  }
+}
+
+.image-circle{
+  img{
+    border-radius: 50%;
+    border: var(--borderstyle);
+    box-sizing: border-box;
+  }
 }

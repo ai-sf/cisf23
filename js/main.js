@@ -3,6 +3,11 @@ $.fn.nextOrFirst = function(selector) {
   return(next.length) ? next : this.prevAll(selector).last();
 }
 
+function updateImage(){
+  i = Math.floor(Math.random() * 9 + 1);
+  $(".gray:not(.active) img").attr({ "src": "img/menu/image-0" + i + ".svg" });
+}
+
 $.fn.accordion = function (cssclass) {
   var container = $(this);
   $(cssclass+"-header", this).on("click", function () {
@@ -24,10 +29,10 @@ $(document).ready(function () {
 
   $(".hamburger").on("click", function () {
 
-    i = Math.floor(Math.random() * 6 + 1);
-    $(".gray:not(.active) img").attr({ "src": "img/menu/image-0" + i + ".svg" });
+    updateImage();
     $(".hamburger").toggleClass("active");
     $(".nav-menu").toggleClass("active");
+    $(".navbar").toggleClass("fixed");
 
     $(".gray:not(.active) img").delay(300);
     $(".gray img").animate({ opacity: 1 - $(".gray img").css("opacity") });
@@ -51,12 +56,42 @@ $(document).ready(function () {
   $(".accordion li").accordion(".item");
 
   $(".gray").on("click", function () {
-    $(".hamburger").removeClass("active");
-    $(".nav-menu").removeClass("active");
-    $(".gray").fadeOut().removeClass("active");
-    visible = 0;
+    if ($(this).hasClass("higher")) {
+      $(".popup").removeClass("active").delay(500).queue(function (next) {
+        $(".gray").removeClass("higher");
+        next();
+      });
+
+
+    } else {
+      $(".hamburger").removeClass("active");
+      $(".nav-menu").removeClass("active");
+    }
+    $(".gray img").animate({ opacity: 0 });
+    $(".gray").delay(150).fadeOut().removeClass("active");
   });
 
+
+  $(".popup-trigger").on("click", function () {
+    target = $(this).data("trigger");
+    updateImage();
+    $(".gray").addClass("higher");
+    $(".gray").addClass("active").fadeIn();
+    $(target).addClass("active");
+    $(".gray img").delay(300).animate({ opacity: 1 });
+  });
+
+
+  $(".popup-close").on("click", function () {
+    $(".popup").removeClass("active").delay(500).queue(function (next) {
+      $(".gray").removeClass("higher");
+      next();
+    });
+    $(".gray").removeClass("higher");
+    $(".gray").removeClass("active").fadeOut();
+    $(".popup").removeClass("active");
+    $(".gray img").animate({ opacity: 0 });
+  });
 
 });
 

@@ -1,0 +1,25 @@
+{% for item in include.data %}
+  <div id="{{item.id}}" class="popup">
+    <div class="popup-close">
+      <i class="material-icons">close</i>
+    </div>
+    <div class="popup-container">
+      <div class="popup-header">
+        <div class="image image-circle">
+          <img src="{{item.image}}">
+        </div>
+        <h2>{{item.title}}</h2>
+      </div>
+      <div class="popup-content">
+        {% for info in item.content %}
+          {% if info.title %}
+            <h3>{{info.title}}</h3>
+          {% endif %}
+        <p class="p1">{{info.text}}</p>
+        {% endfor %}
+      </div>
+
+    </div>
+
+  </div>
+{% endfor %}

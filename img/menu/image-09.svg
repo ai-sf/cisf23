@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="497.98" y1="374.09" x2="416.98" y2="420.86"/>
+  <line class="cls-1" x1="704.73" y1="587.13" x2="704.73" y2="493.66"/>
+  <line class="cls-1" x1="498.22" y1="706.13" x2="417.34" y2="659.43"/>
+  <line class="cls-1" x1="662.66" y1="659.44" x2="581.77" y2="706.14"/>
+  <line class="cls-1" x1="663.01" y1="420.86" x2="582.01" y2="374.09"/>
+  <line class="cls-1" x1="375.27" y1="587.13" x2="375.27" y2="493.66"/>
+  <line class="cls-1" x1="497.98" y1="374.09" x2="416.98" y2="420.86"/>
+  <line class="cls-1" x1="704.73" y1="587.13" x2="704.73" y2="493.66"/>
+  <line class="cls-1" x1="498.22" y1="706.13" x2="417.34" y2="659.43"/>
+  <line class="cls-1" x1="662.66" y1="659.44" x2="581.77" y2="706.14"/>
+  <line class="cls-1" x1="663.01" y1="420.86" x2="582.01" y2="374.09"/>
+  <line class="cls-1" x1="375.27" y1="587.13" x2="375.27" y2="493.66"/>
+  <circle class="cls-1" cx="540" cy="356" r="45.73"/>
+  <circle class="cls-1" cx="540" cy="540.39" r="45.73"/>
+  <circle class="cls-1" cx="540" cy="724.78" r="45.73"/>
+  <circle class="cls-1" cx="380.32" cy="632.59" r="45.73"/>
+  <circle class="cls-1" cx="699.68" cy="448.2" r="45.73"/>
+  <circle class="cls-1" cx="699.68" cy="632.59" r="45.73"/>
+  <circle class="cls-1" cx="380.32" cy="448.2" r="45.73"/>
+  <circle class="cls-1" cx="540" cy="201.4" r="45.73"/>
+  <circle class="cls-1" cx="540" cy="879.39" r="45.73"/>
+  <ellipse class="cls-1" cx="246.42" cy="709.89" rx="45.73" ry="45.73"/>
+  <ellipse class="cls-1" cx="833.58" cy="370.9" rx="45.73" ry="45.73"/>
+  <ellipse class="cls-1" cx="833.58" cy="709.89" rx="45.73" ry="45.73"/>
+  <ellipse class="cls-1" cx="246.42" cy="370.9" rx="45.73" ry="45.73"/>
+  <line class="cls-1" x1="540" y1="310.27" x2="540" y2="247.13"/>
+  <line class="cls-1" x1="540" y1="494.66" x2="540" y2="401.74"/>
+  <line class="cls-1" x1="500.38" y1="563.26" x2="419.92" y2="609.72"/>
+  <polyline class="cls-1" points="340.71 655.45 286.02 687.02 286.02 687.03"/>
+  <line class="cls-1" x1="793.97" y1="687.02" x2="739.29" y2="655.45"/>
+  <line class="cls-1" x1="660.08" y1="609.72" x2="579.61" y2="563.26"/>
+</svg>
