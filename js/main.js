@@ -30,6 +30,7 @@ $(document).ready(function () {
   $(".hamburger").on("click", function () {
 
     updateImage();
+    $(".gray").removeClass("higher");
     $(".hamburger").toggleClass("active");
     $(".nav-menu").toggleClass("active");
     $(".navbar").toggleClass("fixed");
@@ -83,11 +84,8 @@ $(document).ready(function () {
 
 
   $(".popup-close").on("click", function () {
-    $(".popup").removeClass("active").delay(500).queue(function (next) {
-      $(".gray").removeClass("higher");
-      next();
-    });
-    $(".gray").removeClass("higher");
+    $(".popup").removeClass("active");
+
     $(".gray").removeClass("active").fadeOut();
     $(".popup").removeClass("active");
     $(".gray img").animate({ opacity: 0 });

@@ -810,6 +810,10 @@ ul.accordion{
       & > div.colored-light{
         background-color: rgba($accent, 0.2);
 
+        a:not(.button){
+          background-image: linear-gradient($accent, $accent) !important;
+        }
+
       }
 
       .grid-info{
@@ -1123,11 +1127,6 @@ body.fixed-footer{
   }
 }
 
-.underline{
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-}
-
 
 .popup{
   display: flex;
@@ -1142,10 +1141,16 @@ body.fixed-footer{
   bottom: 0;
   width: 600px;
   max-width: 100%;
+
+  @media screen and (max-width: $medium){
+    left: 0;
+    top: 100%;
+   }
   overflow-y: hidden;
   transition: all 0.3s ease;
   &.active{
     right: 0px;
+    top: 0px;
   }
 
   .popup-close{
@@ -1169,6 +1174,12 @@ body.fixed-footer{
     .popup-header{
       display: flex;
       flex-direction: row;
+      @media screen and (max-width: $medium){
+        flex-direction: column;
+        h2{
+          text-align: center;
+        }
+       }
       align-items: center;
       gap: 20px;
       .image{
@@ -1178,6 +1189,7 @@ body.fixed-footer{
         margin: 0px;
       }
       margin-bottom: 30px;
+
 
     }
 

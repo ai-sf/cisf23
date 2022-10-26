@@ -17,7 +17,7 @@ columns:
           type: button popup-trigger
           action: "#troia-info"
     - title: Dott. Alessio Marino
-      image: img/speaker/speaker.svg
+      image: img/speaker/marino.png
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -51,7 +51,7 @@ columns:
     style: separated medium-row small-collapse image-circle
     text:
     - title: Dott. Giuseppe Sancataldo
-      image: img/speaker/speaker.svg
+      image: img/speaker/sancataldo.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -68,7 +68,7 @@ columns:
     style: separated medium-row small-collapse image-circle
     text:
     - title: Dott.ssa Olga Milazzo
-      image: img/speaker/speaker.svg
+      image: img/speaker/milazzo.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -110,10 +110,10 @@ popups:
        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras libero risus, luctus ac ullamcorper ac, finibus egestas ex. Maecenas posuere felis quis elit pharetra, nec mattis massa euismod. Sed consequat nibh quis risus auctor consectetur. Integer urna augue, egestas ac quam quis, ultricies mollis sem. Praesent faucibus sed erat et mollis. Duis in dui sit amet enim gravida commodo et id dolor. Vestibulum quis eleifend lacus. Praesent orci ante, feugiat et odio nec, ultricies interdum mi. In dolor nulla, sagittis et lacinia vel, ultrices vitae nisi. Phasellus faucibus est vitae orci elementum, non scelerisque augue vulputate. Nulla nulla ipsum, commodo quis diam eget, blandit lacinia turpis. Sed iaculis libero vehicula, pellentesque orci eu, efficitur ex. Praesent eleifend imperdiet erat a tempor. Morbi et felis ligula. Vestibulum lacinia rhoncus justo, quis tincidunt nibh semper et. Fusce tincidunt lacinia mauris, ornare venenatis tellus pellentesque vitae. Vestibulum sit amet faucibus nisl, id sodales risus. Nam fringilla elit ac sodales cursus. Integer varius neque arcu, ac ornare urna malesuada quis. Proin metus felis, sollicitudin eu turpis eget, consequat venenatis nibh. Quisque vulputate, augue non convallis semper, enim mauris suscipit nisi, a condimentum erat ipsum semper metus.
   - id: "marino-info"
     title: "Dott. Alessio Marino"
-    image: img/speaker/marino.jpg
+    image: img/speaker/marino.png
     content:
      - title: Biografia
-       text: Blablabla
+       text: Alessio Marino nasce a Termini Imerese (PA) ed ha 28 anni. Dopo aver conseguito la maturità classica, intraprende la Laurea Triennale in Fisica e successivamente la Laurea Magistrale in Astrofisica presso l’Università degli Studi di Palermo. Nel 2017, diventa dottorando di ricerca in una co-tutela internazionale tra le Università di Palermo e di Toulouse, in Francia, dove trascorre metà del periodo di dottorato. Ha svolto attività di ricerca per periodi brevi a Grenoble (Francia) ed Amsterdam (Olanda) ed è parte di diversi science working group per future missioni spaziali, come eXTP o Athena. Attualmente lavora come ricercatore postdoc all’Institute of Space Sciences di Barcellona, in Spagna. La sua attività di ricerca è focalizzata principalmente su osservazioni multi-banda di stelle di neutroni isolate o in sistemi binari X e sullo studio della fisica dell’accrescimento su oggetti compatti.
      - title: Abstract
        text: Blablabla
 
@@ -131,7 +131,7 @@ popups:
     image: img/speaker/calajo.jpg
     content:
      - title: Biografia
-       text: Blablabla
+       text: Giuseppe Calajò è attualmente un assegnista di ricerca presso la sede INFN di Padova dove collabora con il gruppo di ricerca del Prof. Simone Montangero. Precedentemente è stato Marie-Curie Postdoctoral fellow all'istituto di scienze fotoniche ICFO di Barcellona lavorando nel gruppo del Prof. Darrick Chang. Ha svolto i suoi studi all'università di Palermo, sia per la laurea triennale che per la laurea la magistrale, e successivamente  ha conseguito il dottorato all 'università tecnica di Vienna (TU WIEN) dove ha fatto parte della scuola di dottorato su sistemi quantistici complessi (CoQuS) venendo supervisionato dal Prof. Peter Rabl. La sua ricerca si basa principalmente sullo studio teorico di interazioni quantistiche tra luce e materia in moderne interfacce sperimentali. In particolare è interessato ad osservare fenomeni many-body che coinvolgono atomi e luce sia a livello di fisica fondamentale sia per applicazioni dirette per le emergenti tecnologie quantistiche.
      - title: Abstract
        text: Blablabla
 
@@ -149,7 +149,7 @@ popups:
     image: img/speaker/sancataldo.jpg
     content:
      - title: Biografia
-       text: Blablabla
+       text: Giuseppe Sancataldo è ricercatore di fisica applicata. Le attività di ricerca si focalizzano prevalentemente sullo sviluppo e l’ottimizzazione di nuove tecniche e metodi di analisi di microscopia e spettroscopia ottica per applicazioni in ambito biologico, biomedico e biofisico. Si laurea nel 2013 in Fisica (curriculum biofisica) presso l’Università di Palermo e successivamente ottiene il dottorato presso l’Istituto Italiano di Tecnologia (IIT) di Genova occupandosi di microscopia a fluorescenza ad alta risoluzione spaziotemporale. Durante il dottorato è visiting PhD presso l’EMBL (Heidelberg). Dal 2017 al 2019 è Postodc presso l’Università di Firenze e il LENS lavorando all’interno dei progetti europei HBP Human Brain Project e ERC BrainBIT. Dal 2019 è ricercatore presso il Dipartimento di Fisica e Chimica dell’Università di Palermo.
      - title: Abstract
        text: Blablabla
 
@@ -158,7 +158,7 @@ popups:
     image: img/speaker/sciortino.jpg
     content:
      - title: Biografia
-       text: Blablabla
+       text: Alice Sciortino si è laureata con il massimo dei voti in Fisica presso l’università degli studi di Palermo. Ha preso il titolo di dottore di ricerca in Scienza dei Materiali e Nanotecnologie lavorando presso l’università degli studi Catania, università degli studi di Palermo e l’università di Berna con un progetto riguardante lo studio della fotofisica di nanoparticelle a base di carbonio. Successivamente ha vinto una borsa di studio finanziata dalla L’oréal-Unesco nell’ambito del progetto “For women in science” per studiare l’interazione tra nanoparticelle di carbonio e nanotubi di carbonio. Dopo un assegno di ricerca presso l’università di Palermo, ha preso una posizione di Ricercatore a tempo determinato di tipo A presso il dipartimento di Fisica e Chimica dell’università di Palermo dove lavora fino ad oggi. Ad oggi lavora sulla caratterizzazione di nanomateriali luminescenti e loro applicazioni.
      - title: Abstract
        text: Blablabla
 
@@ -167,7 +167,7 @@ popups:
     image: img/speaker/milazzo.jpg
     content:
      - title: Biografia
-       text: Blablabla
+       text: Olga Milazzo, laureata in Fisica a Milano-Bicocca, attualmente al terzo anno di specializzazione in Fisica Medica a Palermo.
      - title: Abstract
        text: Blablabla
 
@@ -185,7 +185,7 @@ popups:
     image: img/speaker/mantegna.jpg
     content:
      - title: Biografia
-       text: Blablabla
+       text: Rosario N. Mantegna è professore di Fisica Applicata all'Università di Palermo e  docente esterno del Complexity Science Hub di Vienna. È stato professore alla Central European University di Budapest e professore onorario di Informatica all'University College London (UCL) di Londra. La sua ricerca riguarda le applicazioni interdisciplinari della fisica statistica e della scienza delle reti. È uno dei pionieri nel campo dell'econofisica e delle reti complesse economiche. Nel 1999 è stato coautore del primo libro sull'econofisica e ha pubblicato il primo articolo sulle reti basate sulla similarità in finanza. Le modalità di filtraggio delle informazioni introdotte da lui e dai suoi collaboratori sono ampiamente utilizzate da accademici e operatori finanziari. La sua attuale ricerca è focalizzata sulle decisioni di investimento di singoli investitori (persone giuridiche) e sulla modellizzazione del mercato finanziario come sistema socio-tecnico complesso.
      - title: Abstract
        text: Blablabla
 

@@ -16,22 +16,19 @@ columns:
     - title: 15:00 - 17:00
       subtitle: Cerimonia di apertura
       info:
-        - Saluti del Rettore
-        - Saluti del Direttore
-        - Saluti Delegato alla Ricerca
-        - Saluti del Coordinatore
-        - Saluti del Presidente AISF
-        - Saluti del Presidente LC
+        - text: Saluti istituzionali
+          type: popup-trigger
+          action: "#saluti-istituzionali"
       color: colored-light
     - title: 17:00 - 17:30
       subtitle: Coffee Break
     - title: 17:30 - 19:30
       subtitle: Sessione plenaria I
       info:
-        - text: prof.ssa Eleonora Troìa
+        - text: Prof.ssa Eleonora Troìa
           type: popup-trigger
           action: "#troia-info"
-        - text: dott. Alessio Marino
+        - text: Dott. Alessio Marino
           type: popup-trigger
           action: "#marino-info"
       footer: Sede Storica - Aula A
@@ -49,7 +46,7 @@ columns:
     par: p2
     text:
     - title: 9:00 - 13:00
-      subtitle: Parallel session <br/>Visite e Workshop
+      subtitle: Sessione parallela <br/>Visite e Workshop
       info:
        - INAF + Osservatorio
        - ATeN Center
@@ -61,13 +58,13 @@ columns:
       color: colored
       subtitle: Sessione plenaria II
       info:
-        - text: prof. Mauro Paternostro
+        - text: Prof. Mauro Paternostro
           type: popup-trigger
           action: "#paternostro-info"
-        - text: dott. Giuseppe Calajo
+        - text: Dott. Giuseppe Calajo
           type: popup-trigger
           action: "#calajo-info"
-        - text: dott. Luca Innocenti
+        - text: Dott. Luca Innocenti
           type: popup-trigger
           action: "#innocenti-info"
       footer: Edificio 18 - Aula Magna
@@ -114,10 +111,10 @@ columns:
         subtitle: Sessione plenaria III
         color: colored
         info:
-          - text: dott.ssa Alice Sciortino
+          - text: Dott.ssa Alice Sciortino
             type: popup-trigger
             action: "#sciortino-info"
-          - text: dott. Giuseppe Sancataldo
+          - text: Dott. Giuseppe Sancataldo
             type: popup-trigger
             action: "#sancataldo-info"
         footer: Sede storica - Aula A
@@ -127,10 +124,10 @@ columns:
         subtitle: Sessione Plenaria IV
         color: colored
         info:
-          - text: dott.ssa Olga Milazzo
+          - text: Dott.ssa Olga Milazzo
             type: popup-trigger
             action: "#milazzo-info"
-          - text: dott.ssa Giulia Termini
+          - text: Dott.ssa Giulia Termini
             type: popup-trigger
             action: "#termini-info"
         footer: Sede storica - Aula A
@@ -158,10 +155,10 @@ columns:
         subtitle: Sessione Plenaria V
         color: colored
         info:
-          - text: prof. Rosario Nunzio Mantegna
+          - text: Prof. Rosario Nunzio Mantegna
             type: popup-trigger
             action: "#mantegna-info"
-          - text: dott. Federico Musciotto
+          - text: Dott. Federico Musciotto
             type: popup-trigger
             action: "#musciotto-info"
         footer: Sede storica - Aula A
@@ -171,3 +168,14 @@ columns:
         subtitle: Cerimonia di Chiusura
         color: colored-light
 
+
+popups:
+    - id: saluti-istituzionali
+      title: Saluti Istituzionali
+      content:
+        - text: Saluti del Rettore
+        - text: Saluti del Direttore
+        - text: Saluti Delegato alla Ricerca
+        - text: Saluti del Coordinatore
+        - text: Saluti del Presidente AISF
+        - text: Saluti del Presidente LC

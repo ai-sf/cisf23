@@ -5,9 +5,11 @@
     </div>
     <div class="popup-container">
       <div class="popup-header">
+        {% if item.image %}
         <div class="image image-circle">
           <img src="{{item.image}}">
         </div>
+        {% endif %}
         <h2>{{item.title}}</h2>
       </div>
       <div class="popup-content">
@@ -15,7 +17,7 @@
           {% if info.title %}
             <h3>{{info.title}}</h3>
           {% endif %}
-        <p class="p1">{{info.text}}</p>
+        <p class="p2">{{info.text}}</p>
         {% endfor %}
       </div>
 
