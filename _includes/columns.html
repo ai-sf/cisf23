@@ -34,6 +34,12 @@
                 {% if p.subtitle %}
                   <h3>{{p.subtitle}}</h3>
                 {% endif %}
+
+                {% if p.footer%}
+                  <div class="grid-info">
+                    <p class="text-item p2"> {{p.footer}} </p>
+                  </div>
+                {% endif %}
                 {% if p.info %}
                 <div class="grid-info">
                   {% for item in p.info %}
@@ -54,11 +60,6 @@
                 </div>
                 {% endif %}
 
-                {% if p.footer%}
-                  <div class="grid-info">
-                    <p class="text-item p2"> {{p.footer}} </p>
-                  </div>
-                {% endif %}
               {% else %}
                 <p class="{{column.par}}">{{p}}</p>
               {% endif %}

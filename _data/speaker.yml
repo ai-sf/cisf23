@@ -7,7 +7,7 @@ columns:
    # - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
 
   - width: h1 m6 s6
-    title: Sessione plenaria 1
+    title: Sessione plenaria I
     style: separated medium-row small-collapse image-circle
     text:
     - title: Prof.ssa Elenora Troìa
@@ -24,7 +24,7 @@ columns:
           action: "#marino-info"
 
   - width: h1 m6 s6
-    title: Sessione plenaria 2
+    title: Sessione plenaria II
     style: separated medium-row small-collapse image-circle
     text:
     - title: Prof. Mauro Paternostro
@@ -47,7 +47,7 @@ columns:
           action: "#innocenti-info"
 
   - width: h1 m6 s6
-    title: Sessione plenaria 3
+    title: Sessione plenaria III
     style: separated medium-row small-collapse image-circle
     text:
     - title: Dott. Giuseppe Sancataldo
@@ -64,7 +64,7 @@ columns:
           action: "#sciortino-info"
 
   - width: h1 m6 s6
-    title: Sessione plenaria 1
+    title: Sessione plenaria IV
     style: separated medium-row small-collapse image-circle
     text:
     - title: Dott.ssa Olga Milazzo
@@ -81,7 +81,7 @@ columns:
           action: "#termini-info"
 
   - width: h1 m6 s6
-    title: Sessione plenaria 1
+    title: Sessione plenaria V
     style: separated medium-row small-collapse image-circle
     text:
     - title: Prof. Nunzio Rosario Mantegna

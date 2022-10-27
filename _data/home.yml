@@ -13,7 +13,7 @@ buttons:
  - text: Sito ufficiale - AISF
    link: https://ai-sf.it
  - text: Iscriviti
-   link: iscriviti
+   link: iscrizioni
  - text: cisf23@ai-sf.it
    link: mailto:cisf23@ai-sf.it
 
@@ -21,4 +21,3 @@ buttons:
 slides:
   - image: "img/CISF23GIF.gif"
     style: full
-  - image: "img/palermo-fisica.jpeg"

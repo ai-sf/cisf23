@@ -49,8 +49,9 @@ $(document).ready(function () {
 
   var duration = 1000;
   setInterval(function () {
-    $(".slideshow .slide.active:eq(0)").delay(duration).fadeOut(duration).removeClass("active").nextOrFirst('.slide').addClass("active").fadeIn(duration).end();
-
+    if ($(".slideshow .slide").length > 1) {
+      $(".slideshow .slide.active:eq(0)").delay(duration).fadeOut(duration).removeClass("active").nextOrFirst('.slide').addClass("active").fadeIn(duration).end();
+    }
   }, 15000);
 
   $(".column.small-collapse").accordion(".column");
