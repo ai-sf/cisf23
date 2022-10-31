@@ -42,6 +42,7 @@
                 {% endif %}
                 {% if p.info %}
                 <div class="grid-info">
+
                   {% for item in p.info %}
                     {% if item.first %}
                       {% if item.type contains "button" or item.type contains "popup-trigger"%}
@@ -49,9 +50,21 @@
                           {{item.text}}
                         </a>
                       {% else %}
-                        <div class="{{item.type}}">
-                          {{item.text}}
-                        </div>
+                        {% if column.style contains "info-listed" %}
+
+                          <div class="grid-info-title">
+                            <i class="material-icons-outlined {{item.icon-style}}">{{item.icon}}</i>
+                            <div>
+                              <span class="{{item.style}}">{{item.text}}</span>
+                              <h3>{{item.title}}</h3>
+                            </div>
+                          </div>
+
+                        {% else %}
+                          <div class="{{item.type}}">
+                            {{item.text}}
+                          </div>
+                        {% endif %}
                       {% endif %}
                     {% else %}
                     <p class="text-item p2"> {{item}} </p>
