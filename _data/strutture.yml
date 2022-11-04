@@ -10,7 +10,7 @@ columns:
     title: Unipa
     style: separated big-row medium-row small-collapse
     text:
-    - title: Via Archirafi
+    - title: Sede Storica
       image: img/strutture/archirafi.png
       info:
         - Via Archirafi, 36
@@ -99,7 +99,7 @@ columns:
     style: separated medium-row small-collapse
     par: p2
     text:
-    - title: Istituto Majorana
+    - title: Centro studi Ettore Majorana
       image: img/strutture/MAJORANA.jpg
       info:
         - Via Gian Filippo Guarnotti, 26

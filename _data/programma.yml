@@ -12,7 +12,7 @@ columns:
     text:
     - title: 9:00 - 15:00
       subtitle: Accoglienza e registrazione
- #     footer: Aula
+      footer: Sede storica
     - title: 15:00 - 17:00
       subtitle: Cerimonia di apertura
       info:
@@ -25,7 +25,7 @@ columns:
     - title: 17:30 - 19:30
       subtitle: Sessione plenaria I
       info:
-        - text: Prof.ssa Eleonora Troìa
+        - text: Prof.ssa Eleonora Troja
           type: popup-trigger
           action: "#troia-info"
         - text: Dott. Alessio Marino
@@ -35,7 +35,7 @@ columns:
       color: colored
     - title: 19:30 - 21:30
       subtitle: Cena libera
-    - title: dalle 21:30
+    - title: "21:30"
       subtitle: Botta di Coulomb
       footer: Via Filippina
       color: colored-light
@@ -53,7 +53,8 @@ columns:
        - INFN
       color: colored-light
     - title: 13:00 - 15:00
-      subtitle: Pranzo in mensa
+      subtitle: Pranzo organizzato
+      footer: Edificio 18
     - title: 15:00 - 17:00
       color: colored
       subtitle: Sessione plenaria II
@@ -75,7 +76,7 @@ columns:
     - title: 20:00 - 22:00
       subtitle: Cena sociale
       color: colored-light
-    - title: dalle 22:00
+    - title: "22:00"
       subtitle: Serata libera
 
   - width: s6 m6 l2 h1
@@ -99,7 +100,7 @@ columns:
         color: colored-light
       - title: 18:30 - 20:30
         subtitle: Trasferimento Erice-Palermo
-      - title: dalle 20:30
+      - title: "20:30"
         subtitle: Tempo libero
 
   - width: s6 m6 l2 h1
@@ -133,13 +134,14 @@ columns:
         footer: Sede storica - Aula A
       - title: 13:30 - 15:00
         subtitle: Pranzo organizzato
+        footer: Sede Storica
       - title: 15:00 - 18:30
         subtitle: Sessione parallela
         color: colored
         footer: Orto Botanico
       - title: 18:30 - 21:30
         subtitle: Tempo libero e cena libera
-      - title: dalle 21:30
+      - title: "21:30"
         subtitle: Serata allo Steri
         color: colored-light
         footer: Palazzo Chiaramonte

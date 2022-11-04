@@ -12,7 +12,7 @@ columns:
 
   - width: s6 h1
     style: top
-    title: Il comitato
+    title: Il Comitato Organizzatore
     par: p2
     text:
       - section:

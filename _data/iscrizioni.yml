@@ -24,8 +24,8 @@ columns:
             icon: schedule
             style: highlighted
       - info:
-          - La selezione dei partecipanti sarà effettuata dal Comitato Organizzatore della CISF2023 in collaborazione con il Comitato Esecutivo AISF. La lettera di motivazione, da inserire nel presente modulo di registrazione, pur rimanendo facoltativa, sarà un importante elemento di valutazione.
-          - Una volta definiti i partecipanti all’evento verrà pianificato il calendario delle sezioni talk studenti. Non è garantito che tutti i contributi scientifici (colloqui e poster) potranno essere accettati.
+          - La selezione dei partecipanti sarà effettuata dal Comitato Organizzatore della CISF2023 in collaborazione con il Comitato Esecutivo AISF. La lettera di motivazione, da inserire nel modulo di registrazione, pur rimanendo facoltativa, sarà un importante elemento di valutazione.
+
 
   - width: h2 l3 m3 s6
     style: separated info-listed info-spaced
@@ -45,37 +45,39 @@ columns:
             icon: payments
       - subtitle: LE QUOTE COMPRENDONO
       - info:
-          - text: Pranzo Gio, Ven, Sab
+          - text: Pranzo Giovedì, Venerdì, Sabato
             style: smaller
-            icon: verified
+            icon: check_circle
             icon-style: smaller
           - text: Cena sociale + Coffee break
             style: smaller
-            icon: verified
+            icon: check_circle
             icon-style: smaller
-          - text: Trasferimento ad Erice
+          - text: Trasferimento per AGA
             style: smaller
-            icon: verified
+            icon: check_circle
             icon-style: smaller
           - text: Kit di benvenuto
             style: smaller
-            icon: verified
+            icon: check_circle
             icon-style: smaller
+      - subtitle: LE QUOTE NON COMPRENDONO
+      - info:
           - text: Spese di viaggio per le conferenze
             style: smaller
-            icon: verified
+            icon: unpublished
             icon-style: smaller
           - text: Assicurazione
             style: smaller
-            icon: verified
+            icon: unpublished
             icon-style: smaller
-          - text: Pranzo Mer e Dom
+          - text: Pranzo Mercoledì e Domenica
             style: smaller
-            icon: verified
+            icon: unpublished
             icon-style: smaller
       - info:
           - Il Comitato Organizzatore si sta impegnando al fine di abbassare le quote di partecipazione. Tale modificazione verrà comunicata entro 7 giorni dalla chiusura delle iscrizioni.
-          - Per chi non è ancora membro AISF la registrazione all’evento comprenderà, al costo di 5 euro (10 euro per gli studenti di dottorato), l’iscrizione all’Associazione per l’anno 2022/2023.
+          - La partecipazione a CISF23 è limitata ai soli membri AISF. Qualora non si fosse membri è possibile registrarsi comunque per CISF23. La registrazione all’evento comprenderà, al costo di 5 euro (10 euro per gli studenti di dottorato), l’iscrizione all’Associazione per l’anno 2022/2023..
           - Per info consultare <a href="https://ai-sf.it/iscrizione/">https://ai-sf.it/iscrizione/</a>
           - La quota di iscrizione ad AISF include la membership IAPS (International Association of Physics Students) di cui AISF è National Committee per l’Italia.
 
@@ -87,8 +89,8 @@ columns:
     text:
     - button: on
       text: Termini e condizioni
-      link: https://www.google.it
+      link: https://drive.google.com/file/d/1HXrueuRnup3HJs7G6sxnhfTaiLTRcHsP/view
     - button: on
       text: Iscriviti
       style: primary
-      link: https://www.google.it
+      link: https://docs.google.com/forms/d/e/1FAIpQLSf_Wt_3tdv1HGv0ogQNBcEdSYXM4YuxieUCX4AwbOW_hGYGbg/viewform
