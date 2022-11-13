@@ -126,7 +126,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 34px;
 }
 
 h3 {
@@ -137,9 +137,14 @@ h3 {
 
 p,
 p.p1 {
-  font-size: 36px;
+  font-size: 34px;
   line-height: 40px;
-  margin-bottom: 36px;
+  margin-bottom: 34px;
+
+  @media screen and (max-width: $medium){
+    font-size: 27px;
+    line-height: 32px;
+  }
 
 }
 
@@ -195,6 +200,8 @@ ul.nav-menu{
     color: $accent;
     height: 80px;
     padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     text-decoration: none;
     transition: all 0.3s ease;
     width: 100%;
@@ -218,7 +225,7 @@ nav.navbar{
     padding-right: 33px;
 
     background-color: #fff;
-    border-bottom:solid $accent;
+    border-bottom: var(--borderstyle);
 
     display: flex;
     justify-content: space-between;
@@ -778,7 +785,7 @@ ul.accordion{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: -3px -13px;
+  margin: -4px -13px;
   @media screen and (min-width: $large){
     box-sizing: border-box;
     height: 100%;
@@ -840,7 +847,7 @@ ul.accordion{
         color: #fff;
         a:not(.button){
           color: #fff;
-          background-image: linear-gradient(#fff, #fff);
+          background-image: linear-gradient(#fff, #fff) !important;
         }
       }
 
@@ -910,7 +917,7 @@ ul.accordion{
 
         p:last-of-type{
           margin-bottom: 20px;
-
+          margin-top: 4px;
         }
 
         a:not(.button){
@@ -918,9 +925,7 @@ ul.accordion{
           width: fit-content;
           font-size: 18px;
           cursor: pointer;
-          &:not(.colored){
-            background-image: linear-gradient($accent, $accent);
-          }
+          background-image: linear-gradient($accent, $accent);
           line-height: 28px;
           background-size: 0% 3px;
           background-position-y: 100%;
@@ -1043,13 +1048,18 @@ ul.accordion{
     }
   }
 
+
   &.small-collapse{
 
     margin-top: 0px;
     margin-bottom: -6px;
-    @media screen and (max-width: $small){
+    @media screen and (max-width: $medium){
       .column-content{
         display: none;
+      }
+
+      .column-header{
+        border-bottom: 0px !important;
       }
 
       &.active{
@@ -1069,6 +1079,14 @@ ul.accordion{
   &.unspaced{
     margin-top: -3px;
   }
+
+
+  &.small-unborder{
+    @media screen and (max-width: $medium){
+      border: none;
+    }
+  }
+
 
   &.buttons .column-content{
     display: flex;
@@ -1128,6 +1146,22 @@ ul.accordion{
 
     &.spaced{
       gap: 100px;
+    }
+
+    &.tinysecond{
+      .column-content > div> p{
+        &:first-of-type{
+          font-size: 20px;
+          line-height: 24px;
+          margin-bottom: 3px;
+        }
+
+        &:not(first-of-type){
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+
     }
 
 

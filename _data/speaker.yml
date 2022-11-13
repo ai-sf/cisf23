@@ -4,7 +4,7 @@ columns:
     style: spaced top
     par: p2
     text:
-   # - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
+
 
   - width: h1 m6 s6
     title: Sessione plenaria I
@@ -40,7 +40,7 @@ columns:
           type: button popup-trigger
           action: "#calajo-info"
     - title: Dott. Luca Innocenti
-      image: img/speaker/speaker.svg
+      image: img/speaker/innocenti.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -56,7 +56,7 @@ columns:
         - text: Informazioni
           type: button popup-trigger
           action: "#sancataldo-info"
-    - title: Prof.ssa Alice Sciortino
+    - title: Dott.ssa Alice Sciortino
       image: img/speaker/sciortino.jpg
       info:
         - text: Informazioni
@@ -74,7 +74,7 @@ columns:
           type: button popup-trigger
           action: "#milazzo-info"
     - title: Dott.ssa Giulia Termini
-      image: img/speaker/speaker.svg
+      image: img/speaker/termini.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -92,7 +92,7 @@ columns:
           action: "#mantegna-info"
 
     - title: Prof. Federico Musciotto
-      image: img/speaker/speaker.svg
+      image: img/speaker/musciotto.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -105,9 +105,10 @@ popups:
     image: img/speaker/troia.jpg
     content:
      - title: Biografia
-       text: In arrivo!
+       text: "Eleonora Troja è professore associato presso l'Università di Roma - Tor Vergata. La sua ricerca  studia le più violente esplosioni stellari note come gamma-ray bursts, e le utilizza per rispondere a domande fondamentali sul nostro Universo: cosa ha prodotto i metalli pesanti che si trovano sulla Terra? come si formano i buchi neri? e cosa regola l'espansione dell'Universo?"
      - title: Abstract
-       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras libero risus, luctus ac ullamcorper ac, finibus egestas ex. Maecenas posuere felis quis elit pharetra, nec mattis massa euismod. Sed consequat nibh quis risus auctor consectetur. Integer urna augue, egestas ac quam quis, ultricies mollis sem. Praesent faucibus sed erat et mollis. Duis in dui sit amet enim gravida commodo et id dolor. Vestibulum quis eleifend lacus. Praesent orci ante, feugiat et odio nec, ultricies interdum mi. In dolor nulla, sagittis et lacinia vel, ultrices vitae nisi. Phasellus faucibus est vitae orci elementum, non scelerisque augue vulputate. Nulla nulla ipsum, commodo quis diam eget, blandit lacinia turpis. Sed iaculis libero vehicula, pellentesque orci eu, efficitur ex. Praesent eleifend imperdiet erat a tempor. Morbi et felis ligula. Vestibulum lacinia rhoncus justo, quis tincidunt nibh semper et. Fusce tincidunt lacinia mauris, ornare venenatis tellus pellentesque vitae. Vestibulum sit amet faucibus nisl, id sodales risus. Nam fringilla elit ac sodales cursus. Integer varius neque arcu, ac ornare urna malesuada quis. Proin metus felis, sollicitudin eu turpis eget, consequat venenatis nibh. Quisque vulputate, augue non convallis semper, enim mauris suscipit nisi, a condimentum erat ipsum semper metus.
+       text: Dopo aver conseguito il Dottorato in Fisica all'Università di Palermo nel 2009, Eleonora Troja consegue la borsa di studio NASA Postodoctoral Program per proseguire i suoi studi negli Stati Uniti presso il centro NASA Goddard Space Flight Center. Nel 2017 partecipa alle osservazioni della sorgente multi-messaggera GW170817, la prima collisione di stelle di neutroni vista da LIGO e Virgo, e ne scopre la radiazione elettromagnetica in banda X. Il suo lavoro riceve numerosi riconoscimenti tra cui la NASA Silver Achievement Medal nel 2018, la NASA Exceptional Scientific Achievement Medal nel 2021, ed un Consolidator Grant da parte dell'European Research Council.
+
   - id: "marino-info"
     title: "Dott. Alessio Marino"
     image: img/speaker/marino.png
@@ -121,7 +122,8 @@ popups:
     title: "Prof. Mauro Paternostro"
     image: img/speaker/paternostro.jpg
     content:
-     - title: Biografia
+     - title: Mauro Paternostro received his Ph.D. from Queen’s University Belfast (QUB) for his work on theoretical quantum information processing. After working as a research fellow at the Institute for Quantum Optics and Quantum Information, University of Vienna, and at Queen’s, he was awarded in 2008 an EPSRC Career Acceleration Fellowship and appointed as Lecturer at Queen’s, then as Reader in 2010, and full Professor in 2013. Mauro is Head of the School of Maths and Physics at Queen’s and he co-leads the University’s Quantum Technology group, where he works on foundations of quantum mechanics and quantum information processing. He is strongly interested and has significantly contributed to non-equilibrium quantum thermodynamics, quantum optomechanics and the coherent manipulation of open mesoscopic quantum systems. Honours include a Leverhulme Trust Early Career Fellowship, an Alexander von Humboldt Fellowship for experienced researchers and a Royal Society Wolfson Research Fellowship. He has attracted about 13,500 citations so far, and funding in excess of 15M euros from a number of funding bodies, including the UK EPSRC, the EU, the Royal Society, the COST Action, the Templeton Foundation, and the Leverhulme Trust.
+
        text: In arrivo!
      - title: Abstract
        text: In arrivo!
@@ -140,7 +142,8 @@ popups:
     image: img/speaker/innocenti.jpg
     content:
      - title: Biografia
-       text: In arrivo!
+       text: Luca Innocenti si è laureato in fisica presso l'Università di Roma Tor Vergata, svolgendo tesi triennale e magistrale sotto la supervisione del Prof. Alessandro Cianchi e del Prof. Fabio Sciarrino. Ha conseguito il PhD presso la Queen's University Belfast, sotto la supervisione del Prof. Mauro Paternostro e del Prof. Alessandro Ferraro, ed è attualmente ricercatore presso l'università degli studi di Palermo, dove collabora con il gruppo di ricerca del Prof. G. Massimo Palma. I suoi interessi di ricerca si concentrano sullo studio teorico dell'informazione quantistica, e in particolare il punto di contatto tra tecniche di machine learning e computazione quantistica.
+
      - title: Abstract
        text: In arrivo!
 
@@ -167,7 +170,7 @@ popups:
     image: img/speaker/milazzo.jpg
     content:
      - title: Biografia
-       text: Olga Milazzo, laureata in Fisica a Milano-Bicocca, attualmente al terzo anno di specializzazione in Fisica Medica a Palermo.
+       text: Olga Milazzo consegue la laurea magistrale in fisica nel 2019 presso l’Università di Milano Bicocca, dopo aver seguito il curriculum di Fisica delle Particelle e Fisica Applicata. Durante il suo lavoro di tesi si avvicina al mondo della fisica medica e lavora ad uno studio della parcellizzazione talamica per trattamenti transcranici con ultrasuoni focalizzati guidati da risonanza magnetica. Successivamente intraprende la Scuola di Specializzazione in Fisica Medica, di cui frequenta il terzo anno, in cui si occupa principalmente di radioprotezione, diagnostica per immagini e terapie radianti. Dal novembre 2021 ricopre la carica di rappresentante degli specializzandi presso il consiglio direttivo dell’Associazione Italiana di Fisica Medica (AIFM).
      - title: Abstract
        text: In arrivo!
 
@@ -176,7 +179,7 @@ popups:
     image: img/speaker/termini.jpg
     content:
      - title: Biografia
-       text: In arrivo!
+       text: Giulia Termini si è laureata con il massimo dei voti in Fisica presso l’Università degli Studi di Palermo. Dopo la laurea magistrale in Astrofisica delle alte energie, inizia ad interessarsi allo studio delle strategie di insegnamento-apprendimento della Fisica, con particolare attenzione al contesto scolastico. Negli ultimi anni ha trascorso alcuni periodi all’estero per motivi di studio e ricerca. Attualmente svolge la sua attività di ricerca come studente di Dottorato all’interno del gruppo di ricerca in Didattica della Fisica presso l’Università degli Studi di Palermo. In particolare, si occupa dello studio dei fenomeni di superficie e dello sviluppo di nuove strategie e strumenti per migliorare l’insegnamento-apprendimento delle tematiche analizzate. Inoltre, progetta e sperimenta sequenze didattiche basate sulle metodologie dell’Apprendimento Attivo e utilizza tecniche di analisi dati qualitativa e quantitativa per lo studio dei dati raccolti.
      - title: Abstract
        text: In arrivo!
 
@@ -190,7 +193,7 @@ popups:
        text: In arrivo!
 
   - id: "musciotto-info"
-    title: "Prof. Federico Musciotto"
+    title: "Dott. Federico Musciotto"
     image: img/speaker/musciotto.jpg
     content:
      - title: Biografia

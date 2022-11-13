@@ -10,22 +10,22 @@ columns:
     title: Visite e workshop
     style: separated big-row medium-row small-collapse
     text:
-    - title: Infn
-      image: img/attivita/evento.jpg
+    - title: INFN
+      image: img/attivita/INFN.png
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#infn-info"
 
-    - title: Osservatorio
-      image: img/attivita/evento.jpg
+    - title: INAF Osservatorio Astronomico
+      image: img/attivita/osservatorio.jpeg
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#osservatorio-info"
 
     - title: ATeN
-      image: img/attivita/evento.jpg
+      image: img/attivita/ATEN.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -38,7 +38,7 @@ columns:
     par: p2
     text:
     - title: Botta di Coulomb
-      image: img/attivita/evento.jpg
+      image: img/attivita/botta_di_coulomb.png
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -46,7 +46,7 @@ columns:
 
 
     - title: Cena sociale
-      image: img/attivita/evento.jpg
+      image: img/attivita/cena_sociale.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -55,7 +55,7 @@ columns:
 
 
     - title: Serata allo Steri
-      image: img/attivita/evento.jpg
+      image: img/attivita/serata_allo_steri.jpeg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -71,21 +71,28 @@ columns:
     par: p2
     text:
     - title: Erice
-      image: img/attivita/evento.jpg
+      image: img/attivita/Erice.jpeg
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#erice-info"
 
+    - title: AGA
+      image: img/attivita/aisf.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#AGA-info"
+
     - title: Workshop AISF
-      image: img/attivita/evento.jpg
+      image: img/attivita/WORKSHOP_AISF.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
           action: "#workshop-info"
 
     - title: Visita organizzata
-      image: img/attivita/evento.jpg
+      image: img/attivita/VISITE_ORGANIZZATE.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
@@ -93,47 +100,67 @@ columns:
 
 popups:
   - id: "infn-info"
-    title: "Infn"
+    image: img/attivita/INFN.png
+    title: "INFN"
     content:
-     - text: "Blablablablablabla"
+     - text: "In arrivo!"
+
   - id: "osservatorio-info"
-    title: "Osservatorio"
+    title: "INAF- Osservatorio"
+    image: img/attivita/osservatorio.jpeg
     content:
-     - text: "Blablablablablabla"
+     - text: "L’Osservatorio Astronomico di Palermo sarà teatro di una visita guidata al bellissimo Museo della Specola, che comprende una collezione di antichi strumenti di pregio. In compagnia dei ricercatori di INAF-OAPa, avremo un assaggio delle varie linee di ricerca portate avanti in questo luogo magico."
+     - text: "© Copyright foto: <a href='http://cerere.astropa.unipa.it/DomeSun.jpeg'>http://cerere.astropa.unipa.it/DomeSun.jpeg</a>"
 
   - id: "aten-info"
-    title: "ATeN"
+    title: "ATeN Center"
+    image: img/attivita/ATEN.jpg
     content:
-     - text: "Blablablablablabla"
+     - text: "L’Advanced Technology Network Center (ATeN) dell’Università di Palermo apre le porte dei suoi numerosi laboratori all’interno dei quali i ricercatori daranno un saggio delle attività scientifiche che vi si svolgono.
+"
 
   - id: "bdc-info"
     title: "Botta di Coulomb"
+    image: img/attivita/botta_di_coulomb.png
     content:
-     - text: "Blablablablablabla"
+     - text: "Durante la  prima serata si terrà l'ormai celebre quiz scientifico a squadre targato AISF, Botta di Coulomb! Il gioco consiste in un quiz con domande di carattere scientifico-tecnologico e risposte a  scelta multipla: un'ottima occasione per divertirsi, mettersi alla prova e imparare! Le  domande verteranno su molteplici argomenti: dalla Fisica alla Medicina, dalla Chimica alla Biologia e all'Ingegneria."
 
   - id: "cena-info"
     title: "Cena sociale"
+    image: img/attivita/cena_sociale.jpg
+
     content:
-     - text: "Blablablablablabla"
+     - text: "Scoprire Palermo significa anche vivere la sua movida notturna passeggiando per il  centro storico e passando dalle zone più frequentate dai giovani: la Vucciria, Piazza  Sant’Anna, Piazza Maggione. Ma un vero luogo lo si può godere solo dopo una  soddisfacente cena sociale tutti insieme.
+"
 
   - id: "steri-info"
     title: "Serata allo Steri"
+    image: img/attivita/serata_allo_steri.jpeg
     content:
-     - text: "Blablablablablabla"
+     - text: "Una serata dinamica tra concerti, dibattiti e poster session tutti insieme all’interno del Palazzo Chiaramonte, o anche chiamato tradizionalmente “Lo Steri”. Passeggiare tra le mura dell’antico palazzo che ospita il rettorato, sarà un'occasione di confronto unica e stimolante!"
 
   - id: "erice-info"
     title: "Erice"
+    image: img/attivita/Erice.jpeg
     content:
-     - text: "Blablablablablabla"
+     - text: "Il borgo medievale di Erice svetta dall’alto dei suoi 750 metri, godendosi un’eccezionale vista panoramica che guarda al golfo di Trapani ed alle isole Egadi da un lato ed alla vallata del Valderice dall’altro, abbracciando le campagne dell’entroterra siculo. Oggi Erice è famosa, oltre che per le sue bellezze storiche e artistiche, anche per essere sede del prestigioso Centro di Cultura Scientifica Ettore Majorana, organizzazione scientifica fondata nel 1963 e celebre nel mondo, che vale alla cittadina la prestigiosa qualifica di Città della Scienza per la Pace."
+     - text: "© Copyright foto: <a href='https://www.terredimare.it/wp-content/uploads/2018/03/Erice.jpeg'>https://www.terredimare.it/wp-content/uploads/2018/03/Erice.jpeg</a>"
+
+  - id: "AGA-info"
+    title: "Assemblea Generale Annuale"
+    image: img/attivita/aisf.jpg
+    content:
+     - text: "L’Assemblea Generale Annuale è il momento cardine della vita dell’Associazione e per questo è da sempre una parte fondamentale della CISF. AGA 2023 sarà svolta in modalità mista, per permettere a tutti i membri di farne parte, ma tutti gli iscritti CISF avranno un posto riservato per partecipare in presenza. In AGA si prendono tutte le scelte che definiscono AISF e, soprattutto, si eleggono i nuovi membri del Comitato Esecutivo! "
 
   - id: "workshop-info"
     title: "Workshop AISF"
+    image: img/attivita/WORKSHOP_AISF.jpg
     content:
-     - text: "Blablablablablabla"
+     - text: "I membri del Comitato Esecutivo possono mai stare con le mani in mano durante CISF23? Assolutamente no! Attraverso dei piccoli seminari cercaranno di spiegare come si gestisce un comitato locale nel migliore dei modi, quali sono le difficoltà di un presidente e come superarle, qual è la chiave per organizzare un evento di successo e soprattutto, di condividere la propria idea di AISF!"
 
   - id: "visita-info"
     title: "Visita organizzata"
     content:
-     - text: "Blablablablablabla"
+     - text: "In Arrivo!"
 
 

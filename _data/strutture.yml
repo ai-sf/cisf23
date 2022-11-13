@@ -46,6 +46,27 @@ columns:
     style: separated big-row medium-row small-collapse
     par: p2
     text:
+    - title: Orto Botanico
+      image: img/strutture/orto-botanico.jpg
+      info:
+        - Via Lincoln, 2
+        - text: Sito web
+          type: button
+          link: http://www.ortobotanico.unipa.it/
+        - text: Posizione
+          type: button
+          link: https://goo.gl/maps/4GbZ1ZenhRstQTNd9
+
+    - title: Osservatorio Astronomico "G. Vaiana"
+      image: img/strutture/Osservatorio.jpg
+      info:
+        - Piazza del Parlamento, 1
+        - text: Sito web
+          link: https://www.astropa.inaf.it/
+          type: button
+        - text: Posizione
+          type: button
+          link: https://goo.gl/maps/Cni2NQ8we5JZwbVe8
     - title: Villa Filippina
       image: img/strutture/VILLA FILIPPINA.jpg
       info:
@@ -69,27 +90,6 @@ columns:
           link: https://goo.gl/maps/BqwJKWdaugya1hrHA
 
 
-    - title: Orto Botanico
-      image: img/strutture/orto-botanico.jpg
-      info:
-        - Via Lincoln, 2
-        - text: Sito web
-          type: button
-          link: http://www.ortobotanico.unipa.it/
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/4GbZ1ZenhRstQTNd9
-
-    - title: Osservatorio Astronomico
-      image: img/strutture/Osservatorio.jpg
-      info:
-        - Piazza del Parlamento, 1
-        - text: Sito web
-          link: https://www.astropa.inaf.it/
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/Cni2NQ8we5JZwbVe8
 
 
   - width: h1 m6 s6

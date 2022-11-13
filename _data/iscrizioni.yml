@@ -6,7 +6,7 @@ columns:
     #text: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
 
   - width: h2 l3 m3 s6
-    style: separated info-listed
+    style: separated info-listed small-collapse
     par: p2
     title: Quanti di informazione
     text:
@@ -28,7 +28,7 @@ columns:
 
 
   - width: h2 l3 m3 s6
-    style: separated info-listed info-spaced
+    style: separated info-listed info-spaced small-collapse
     title: Quota di iscrizione
     par: p2
     text:
@@ -77,7 +77,7 @@ columns:
             icon-style: smaller
       - info:
           - Il Comitato Organizzatore si sta impegnando al fine di abbassare le quote di partecipazione. Tale modificazione verrà comunicata entro 7 giorni dalla chiusura delle iscrizioni.
-          - La partecipazione a CISF23 è limitata ai soli membri AISF. Qualora non si fosse membri è possibile registrarsi comunque per CISF23. La registrazione all’evento comprenderà, al costo di 5 euro (10 euro per gli studenti di dottorato), l’iscrizione all’Associazione per l’anno 2022/2023..
+          - La partecipazione a CISF23 è limitata ai soli membri AISF. Qualora non si fosse membri è possibile registrarsi comunque per CISF23. La registrazione all’evento comprenderà, al costo di 5 euro (10 euro per gli studenti di dottorato), l’iscrizione all’Associazione per l’anno 2022/2023.
           - Per info consultare <a href="https://ai-sf.it/iscrizione/">https://ai-sf.it/iscrizione/</a>
           - La quota di iscrizione ad AISF include la membership IAPS (International Association of Physics Students) di cui AISF è National Committee per l’Italia.
 
@@ -85,7 +85,7 @@ columns:
 
 
   - width: h1 l6 m6 s6
-    style: unspaced buttons
+    style: unspaced buttons small-unborder
     text:
     - button: on
       text: Termini e condizioni

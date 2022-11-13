@@ -46,9 +46,9 @@ columns:
     par: p2
     text:
     - title: 9:00 - 13:00
-      subtitle: Sessione parallela <br/>Visite e Workshop
+      subtitle: Attività parallele <br/>Visite e Workshop
       info:
-       - INAF + Osservatorio
+       - Osservatorio Astronomico G. Vaiana
        - ATeN Center
        - INFN
       color: colored-light

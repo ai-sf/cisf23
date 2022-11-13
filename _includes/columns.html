@@ -46,7 +46,7 @@
                   {% for item in p.info %}
                     {% if item.first %}
                       {% if item.type contains "button" or item.type contains "popup-trigger"%}
-                        <a {% if item.link %}src="{{item.link}}"{% endif %} {% if item.type contains "popup-trigger"%} data-trigger="{{item.action}}"{% endif %}class="{{item.type}}" >
+                        <a {% if item.link %} href="{{item.link}}"{% endif %} {% if item.type contains "popup-trigger"%} data-trigger="{{item.action}}"{% endif %}class="{{item.type}}" >
                           {{item.text}}
                         </a>
                       {% else %}

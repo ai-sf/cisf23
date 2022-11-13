@@ -7,11 +7,12 @@ columns:
     style: top nobordertop
     par: p1
     text:
-    - section: CISF è il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF) che approda nella città di Palermo dopo tre anni di assenza indotta.
-    - section: Per la VII edizione circa 150 studenti di Fisica da tutta Italia si riuniranno per la prima volta nel capoluogo siciliano con l’occasione di sperimentare e vivere la quotidianità dell’ambiente universitario palermitano, partecipare a conferenze ed incontri con giovani scienziati di calibro internazionale e soprattutto avendo la possibilità di interfacciarsi reciprocamente durante le attività e le visite svolte all’interno delle strutture storiche, cornici della fisica palermitana e siciliana.
+    - section: CISF23 nasce dal desiderio dei membri del Comitato Locale di Palermo di mettersi al servizio della comunità AISF per offrire una CISF all’altezza delle altre. La storia di AISF Palermo infatti è strettamente legata a quella della conferenza.
+    - section: "Nel 2019, un gruppetto di sette piccoli fisici palermitani, incuriositi da un evento nazionale che raccogliesse gli studenti di fisica di tutta Italia, decisero di iscriversi, pur sconoscendo del tutto AISF, e di tentare la sorte. Nei cinque giorni di CISF, rimasero folgarati dalla bellezza del progetto e dal clima di condivisione che esso stimolava. Appena tornati a Palermo, tutti erano unanimi sul da farsi: portare AISF anche a Palermo! E così fecero."
+    - section: "A 4 anni di distanza, i membri del Comitato Locale di Palermo hanno l’onere e l’onore di ospitare AISF nella propria città e di aprire le porte del proprio dipartimento, che come per tutti noi, è casa. Cultura, Condivisone e Convivialità, sono le parole d’ordine di questa edizione di CISF, che speriamo possa conquistarvi, come ha fatto con noi."
 
   - width: s6 h1
-    style: top
+    style: top tinysecond
     title: Il Comitato Organizzatore
     par: p2
     text:
