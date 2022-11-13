@@ -163,7 +163,9 @@ ul.nav-menu{
   display: flex;
   position: fixed;
   right: -500px;
-  top:123px;
+  top:120px;
+
+  border-top: var(--borderstyle);
 
   gap: 0;
   flex-direction: column;
