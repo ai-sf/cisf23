@@ -1313,6 +1313,22 @@ body.fixed-footer{
     }
 
     .popup-content{
+
+
+      &.alterned{
+        p:nth-child(2n){
+          font-size: 16px;
+          line-height: 20px;
+          margin-bottom: 20px;
+        }
+
+        p:nth-child(2n+1){
+          font-size: 24px;
+          line-height: 28px;
+          margin-bottom: 0px;
+        }
+
+      }
       &::-webkit-scrollbar,
       &.separated .column-content::-webkit-scrollbar{
         display: none;

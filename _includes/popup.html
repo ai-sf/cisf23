@@ -12,7 +12,7 @@
         {% endif %}
         <h2>{{item.title}}</h2>
       </div>
-      <div class="popup-content">
+      <div class="popup-content {{item.class}}">
         {% for info in item.content %}
           {% if info.title %}
             <h3>{{info.title}}</h3>

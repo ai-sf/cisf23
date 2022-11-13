@@ -173,11 +173,14 @@ columns:
 
 popups:
     - id: saluti-istituzionali
-      title: Saluti Istituzionali
+      title: Saluti
+      class: alterned
       content:
-        - text: Saluti del Rettore
-        - text: Saluti del Direttore
-        - text: Saluti Delegato alla Ricerca
-        - text: Saluti del Coordinatore
-        - text: Saluti del Presidente AISF
-        - text: Saluti del Presidente LC
+        - text: Prof. Massimo Midiri
+        - text: Magnifico Rettore dell’Università degli Studi di Palermo
+        - text: Prof. Gioacchino Massimo Palma
+        - text: Direttore del Dipartimento di Fisica e Chimica - E. Segrè - Università degli Studi di Palermo
+        - text: Matteo Vismara
+        - text: Presidente dell’Associazione Italiana Studenti di Fisica
+        - text: Andrea Gherard Lutz
+        - text: Presidente del Comitato Locale di Palermo dell’Associazione Italiana Studenti di Fisica
