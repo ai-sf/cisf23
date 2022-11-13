@@ -10,14 +10,30 @@
           <img src="{{item.image}}">
         </div>
         {% endif %}
-        <h2>{{item.title}}</h2>
+        <div>
+          <h2>{{item.title}}</h2>
+          {% if item.subtitle %}
+          <p class="subtitle">{{item.subtitle}}</p>
+          {% endif %}
+        </div>
+
       </div>
       <div class="popup-content {{item.class}}">
         {% for info in item.content %}
-          {% if info.title %}
-            <h3>{{info.title}}</h3>
-          {% endif %}
-        <p class="p2">{{info.text}}</p>
+        {% if info.title %}
+          <h3>{{info.title}}</h3>
+        {% endif %}
+        {% if info.type contains "button" %}
+
+            <a {% if info.link %} href="{{info.link}}"{% endif %} class="{{info.type}}" >
+              {{info.text}}
+              </a>
+
+
+        {% else %}
+          <p class="p2">{{info.text}}</p>
+        {% endif %}
+
         {% endfor %}
       </div>
 

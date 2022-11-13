@@ -4,42 +4,38 @@ columns:
     style: spaced top
     par: p2
     text:
-   # - section: La CISF costituisce il principale evento annuale organizzato dall’Associazione Italiana Studenti di Fisica (AISF). Giunta alla sua IV edizione, la CISF 2018 si svolgerà a Pisa, dove circa 150 studenti provenienti da tutta Italia avranno la possibilità di visitare i maggiori centri di ricerca e laboratori della zona, ascoltare interventi di illustri professori e ricercatori. Non per ultimo conoscere e vivere la quotidianità dell’ambiente universitario pisano, reso unico dalla compresenza dell’Università di Pisa, Scuola Normale Superiore, Scuola Superiore Sant’Anna, INFN e CNR.
+
 
   - width: h2 m6 s6
     title: Unipa
     style: separated big-row medium-row small-collapse
     text:
-    - title: Sede Storica
+    - title: Dipartimento, sede Storica
       image: img/strutture/archirafi.png
       info:
         - Via Archirafi, 36
-        - text: Sito web
-          link: https://www.unipa.it/dipartimenti/difc/luoghi.html
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/no57AofTavNpcbgx9
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#archirafi-info"
+
+
     - title: Edificio 18
       image: img/strutture/EDIFICIO18.jpg
       info:
         - Viale delle Scienze Parco d’Orléans II, Ed. 18
-        - text: Sito
-          link: https://www.unipa.it/dipartimenti/difc/luoghi.html
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/5LrgBsUiZbuz1mzA9
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#edificio18-info"
+
+
     - title: ATeN Center
       image: img/strutture/ATeN_Center.jpeg
       info:
         - Viale delle Scienze, Ed. 18A
-        - text: Sito
-          link: https://www.unipa.it/servizi/atencenter/
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/sZvpEtzNtj115n3d8
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#aten-info"
+
 
   - width: h2 m6 s6
     title: Palermo
@@ -50,44 +46,34 @@ columns:
       image: img/strutture/orto-botanico.jpg
       info:
         - Via Lincoln, 2
-        - text: Sito web
-          type: button
-          link: http://www.ortobotanico.unipa.it/
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/4GbZ1ZenhRstQTNd9
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#orto-info"
+
 
     - title: Osservatorio Astronomico "G. Vaiana"
       image: img/strutture/Osservatorio.jpg
       info:
         - Piazza del Parlamento, 1
-        - text: Sito web
-          link: https://www.astropa.inaf.it/
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/Cni2NQ8we5JZwbVe8
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#osservatorio-info"
+
     - title: Villa Filippina
-      image: img/strutture/VILLA FILIPPINA.jpg
+      image: img/strutture/VILLA_FILIPPINA.jpg
       info:
         - Piazza S. Francesco di Paola, 18
-        - text: Sito web
-          link: https://villafilippina.organizzatori.18tickets.it
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/B8tzuUuM4YRm4EH76
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#villafilippina-info"
 
     - title: Palazzo Chiaramonte-Steri
-      image: img/strutture/Palermo-Palazzo-Chiaramonte-bjs2007-01.jpg
+      image: img/strutture/steri.jpg
       info:
         - Piazza Marina, 60
-        - text: Sito web
-          link: http://juicedjuiced14.altervista.org/palazzo_chiaramonte/home.html
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/BqwJKWdaugya1hrHA
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#steri-info"
 
 
 
@@ -103,9 +89,119 @@ columns:
       image: img/strutture/MAJORANA.jpg
       info:
         - Via Gian Filippo Guarnotti, 26
-        - text: Sito web
-          link: http://www.ccsem.infn.it
-          type: button
-        - text: Posizione
-          type: button
-          link: https://goo.gl/maps/PV715GmcNPvpCVP69
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#majorana-info"
+
+popups:
+  - id: "archirafi-info"
+    title: "Dipartimento, sede storica"
+    subtitle: Via Archirafi, 36
+    image: img/strutture/archirafi.png
+    content:
+      - text:  La cattedra di Fisica Sperimentale nacque nel 1779 contemporanemanete alla fondazione della La Regia Accademia degli Studi, poi denominata Università degli Studi di Palermo. Tuttavia una svolta importante nella storia della fisica palermitana si ebbe solo alla fine del XIX secolo con l’arrivo di Pietro Blaserna, la cui opera innovatrice fu proseguita dai suoi allievi, tra cui spicca il nome di Orso Mario Corbino. Dalla metà degli anni '30 del Novecento, iniziò una fase caratterizzata dalla presenza a Palermo di Emilio Segrè, uno dei più brillanti allievi di Enrico Fermi, quale professore di Fisica Sperimentale e direttore dell'Istituto di Fisica. In questo periodo, la fisica palermitana conobbe una stagione di forte dinamismo scientifico, venendo a contatto con il fronte più avanzato della ricerca nucleare a livello internazionale. Purtroppo, questo processo fu bruscamente interrotto quando Segrè, di origini ebraiche, fu costretto a lasciare l'Italia a causa delle leggi razziali.
+      - text: "La fisica palermitana negli anni '50 vede protagonisti quattro persone: Donato Palumbo, Mariano Santangelo ed i coniugi Ugo Palma e Beatrice Vittorelli. A questi ultimi si deve la realizzazione di un moderno laboratorio di ricerca e l’avvio di un programma scientifico nel campo della fisica dello stato solido, sul quale si formerà un'intera generazione di fisici palermitani. Dotati entrambi di forte personalità e animati da una grande volontà, Ugo e Beatrice Palma diedero vita a una scuola che resterà una guida nel panorama della fisica palermitana per oltre un ventennio."
+      - text:  "Il 18 febbraio 2019 il dipartimento di Fisica e Chimica viene nominato“EPS Historic Site” dalla  Società Europea di Fisica (EPS) in quanto luogo significativo per lo sviluppo e la storia della fisica europea. Contestualmente l’Ateneo palermitano ha deciso di intitolare il dipartimento ad Emilio Segrè, che proprio a Palermo scoprì nel 1937 il Tecneto. "
+      - text: "L’attuale Dipartimento di Fisica e Chimica – Emilio Segrè (DiFC) si articola in diversi plessi: quello storico di via Archirafi 36, gli Edifici 17 e 18 nel Campus di Viale delle Scienze, e l’Osservatorio Astronomico di Palermo, sito nel Palazzo dei Normanni.  In ciascuna di queste sedi viene portato avanti un ampio ventaglio di linee di ricerca, che spaziano i più svariati ambiti della fisica."
+      - text: Sito web
+        link: https://www.unipa.it/dipartimenti/difc/luoghi.html
+        type: button
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/no57AofTavNpcbgx9
+
+  - id: "edificio18-info"
+    title: "Dipartimento, ed. 18"
+    subtitle: Viale delle Scienze Parco d’Orléans II, Ed. 18
+    image: img/strutture/EDIFICIO18.jpg
+    content:
+      - text:  L’Edificio 18, sito nel campus dell’Università degli Studi di Palermo, è stato da poco più di un decennio affiancato al plesso storico di Via Archirafi 36, quale sede del Dipartimento di Fisica e Chimica - E. Segrè. Al suo interno trovano posto aule e laboratori didattici e di ricerca. L’edificio ospita anche locali afferenti ad ATeN Center.
+      - text: Sito
+        link: https://www.unipa.it/dipartimenti/difc/luoghi.html
+        type: button
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/5LrgBsUiZbuz1mzA9
+
+
+  - id: "aten-info"
+    title: "ATeN Center"
+    subtitle: Viale delle Scienze, Ed. 18A
+    image: img/strutture/ATeN_Center.jpeg
+    content:
+      - text:  ATeN Center – Advanced Technologies Network Center – è uno tra i pochi centri di ricerca e sviluppo in Europa nel settore delle Biotecnologie applicate alla salute dell’uomo ad offrire la disponibilità di una filiera che va dalla sintesi dei materiali fino ai test in vivo. Con i suoi Laboratori dotati di circa un centinaio di attrezzature scientifiche e dislocati su 3.000 mq di superficie, il Centro si propone come punto di riferimento per nuove idee progettuali e attività di trasferimento tecnologico per i Ricercatori e le Aziende del Mediterraneo.
+      - text: Sito
+        link: https://www.unipa.it/servizi/atencenter/
+        type: button
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/sZvpEtzNtj115n3d8
+
+  - id: "orto-info"
+    title: "ATeN Center"
+    subtitle: Via Lincoln, 2
+    image: img/strutture/orto-botanico.jpg
+    content:
+      - text:  L'Orto Botanico dell'Università degli Studi Palermo è una tra le più importanti istituzioni accademiche italiane. Considerato un enorme museo all'aperto, vanta oltre duecento anni di attività che gli hanno consentito anche lo studio e la diffusione, in Sicilia, in Europa e in tutto il bacino del Mediterraneo, di innumerevoli specie. La peculiarità di questo Orto Botanico è rappresentata oggi proprio dalla grande varietà di specie vegetali ospitate, molte originarie delle regioni tropicali e subtropicali, che ne fanno un luogo ricchissimo di espressioni di flore diverse.  L’origine dell’Orto Botanico di Palermo risale agli ultimi decenni del XVIII secolo, epoca in cui ha inizio, nel regno di Napoli e di Sicilia, una fase storica connotata da numerose riforme e da grandi aperture nel segno della cultura europea di marca illuministica.
+      - text: Sito web
+        type: button
+        link: http://www.ortobotanico.unipa.it/
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/4GbZ1ZenhRstQTNd9
+
+  - id: "osservatorio-info"
+    title: "Osservatorio Astronomico \"G. Vaiana\""
+    subtitle: Piazza del Parlamento, 1
+    image: img/strutture/Osservatorio.jpg
+    content:
+      - text:  L’Osservatorio Astronomico di Palermo “Giuseppe S. Vaiana” (OAPa) è una delle principali strutture di ricerca dell‘Istituto Nazionale di Astrofisica (INAF) a Palermo. Fondato nel 1790 dal Re Ferdinando I di Borbone su una delle torri di Palazzo dei Normanni, dimora storica dei sovrani del Regno di Sicilia e sede odierna dell’Assemblea Regionale Siciliana, fu il primo osservatorio astronomico d’Italia.
+      - text: Giuseppe Piazzi, abate e astronomo, nominato dal Re primo direttore della struttura, dalla cupola del suo osservatorio scoprì Cerere, il primo asteroide.
+      - text: Ad oggi le linee di ricerca dell’OAPa sono numerose. Tra le principali, spiccano studi di modelli numerici con calcolo ad alte prestazioni su resti di supernovae e corone stellari, ricerche di astrobiologia sperimentale e sviluppo di nuove generazioni di satelliti per astronomia X.  Non mancano poi collaborazioni a ricerche internazionali di alto prestigio, come il recente progetto del satellite Solar Orbiter.
+      - text: Sito web
+        link: https://www.astropa.inaf.it/
+        type: button
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/Cni2NQ8we5JZwbVe8
+
+  - id: "villafilippina-info"
+    title: "Villa Filippina"
+    subtitle: Piazza del Parlamento, 1
+    image: img/strutture/VILLA_FILIPPINA.jpg
+    content:
+      - text:  Villa Filippina è un parco urbano nel centro storico di Palermo. La villa, costruita nel 1755 per volere di Don Angelo Serio, anche sede del Planetario e Museo astronomico di Palermo, è famosa soprattutto per essere sede di eventi e spettacoli culturali di ogni genere. Sede di numerosi eventi del comitato locale di Palermo dalla sua fondazione, sarà la cornice palermitana del quiz targato AISF “Botta di Coulomb!”
+      - text: Sito web
+        link: https://villafilippina.organizzatori.18tickets.it
+        type: button
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/B8tzuUuM4YRm4EH76
+
+
+  - id: "steri-info"
+    title: "Palazzo Chiaramonte"
+    subtitle: Piazza Marina, 60
+    image: img/strutture/steri.jpg
+    content:
+      - text:  Noto come “Lo Steri”, Palazzo Chiaramonte fu costruito intorno al 1320 da Manfredi I Chiaramonte. Il principale tra le cinque dimore storiche che costeggiano Piazza Marina, è noto alla storia per essere la sede dell’inquisizione siciliana. Negli ultimi 70 anni, dopo un lungo periodo di restauro, e sede del rettorato dell’Università di Palermo e di numerosi musei d’arte.
+      - text: Sito web
+        link: http://juicedjuiced14.altervista.org/palazzo_chiaramonte/home.html
+        type: button
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/BqwJKWdaugya1hrHA
+
+
+  - id: "majorana-info"
+    title: "Centro studi Ettore Majorana"
+    subtitle: Via Gian Filippo Guarnotti, 26
+    image: img/strutture/MAJORANA.jpg
+    content:
+      - text: In arrivo!
+      - text: Sito web
+        link: http://www.ccsem.infn.it
+        type: button
+      - text: Posizione
+        type: button
+        link: https://goo.gl/maps/PV715GmcNPvpCVP69
