@@ -105,9 +105,9 @@ popups:
     image: img/speaker/troia.jpg
     content:
      - title: Biografia
-       text: "Eleonora Troja è professore associato presso l'Università di Roma - Tor Vergata. La sua ricerca  studia le più violente esplosioni stellari note come gamma-ray bursts, e le utilizza per rispondere a domande fondamentali sul nostro Universo: cosa ha prodotto i metalli pesanti che si trovano sulla Terra? come si formano i buchi neri? e cosa regola l'espansione dell'Universo?"
+       text: "Eleonora Troja è professore associato presso l'Università di Roma - Tor Vergata. La sua ricerca  studia le più violente esplosioni stellari note come gamma-ray bursts, e le utilizza per rispondere a domande fondamentali sul nostro Universo: cosa ha prodotto i metalli pesanti che si trovano sulla Terra? come si formano i buchi neri? e cosa regola l'espansione dell'Universo? <br/> Dopo aver conseguito il Dottorato in Fisica all'Università di Palermo nel 2009, Eleonora Troja consegue la borsa di studio NASA Postodoctoral Program per proseguire i suoi studi negli Stati Uniti presso il centro NASA Goddard Space Flight Center. Nel 2017 partecipa alle osservazioni della sorgente multi-messaggera GW170817, la prima collisione di stelle di neutroni vista da LIGO e Virgo, e ne scopre la radiazione elettromagnetica in banda X. Il suo lavoro riceve numerosi riconoscimenti tra cui la NASA Silver Achievement Medal nel 2018, la NASA Exceptional Scientific Achievement Medal nel 2021, ed un Consolidator Grant da parte dell'European Research Council."
      - title: Abstract
-       text: Dopo aver conseguito il Dottorato in Fisica all'Università di Palermo nel 2009, Eleonora Troja consegue la borsa di studio NASA Postodoctoral Program per proseguire i suoi studi negli Stati Uniti presso il centro NASA Goddard Space Flight Center. Nel 2017 partecipa alle osservazioni della sorgente multi-messaggera GW170817, la prima collisione di stelle di neutroni vista da LIGO e Virgo, e ne scopre la radiazione elettromagnetica in banda X. Il suo lavoro riceve numerosi riconoscimenti tra cui la NASA Silver Achievement Medal nel 2018, la NASA Exceptional Scientific Achievement Medal nel 2021, ed un Consolidator Grant da parte dell'European Research Council.
+       text: "In arrivo!"
 
   - id: "marino-info"
     title: "Dott. Alessio Marino"
