@@ -54,7 +54,7 @@ body {
 
 html{
   overflow-x: hidden;
-  @media screen and (min-width: $medium){
+  @media screen and (min-width: $large){
     padding-top: 123px;
     box-sizing: border-box;
   }
@@ -242,13 +242,13 @@ nav.navbar{
         margin-left: 20px;
       }
     }
-    @media screen and (min-width: $medium){
+    @media screen and (min-width: $large){
     position: fixed;
     right: 0;
     left: 0;
     top:0;
     }
-    @media screen and (max-width: #{$medium+1}){
+    @media screen and (max-width: #{$large+1}){
       position: relative;
     }
     overflow-x: hidden;
@@ -1307,7 +1307,7 @@ body.fixed-footer{
       }
       @media screen and (max-width: $medium){
         flex-direction: column;
-        h2{
+        h2, .subtitle{
           text-align: center;
         }
        }
