@@ -865,12 +865,11 @@ ul.accordion{
       .highlighted{
         background-color: $accent;
         display: inline;
-        line-height: 24px !important;
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
         padding: 0px 10px 2px 10px;
         color: white;
-        line-height: 52px !important;
+        line-height: 42px !important;
 
       }
       .grid-info{
