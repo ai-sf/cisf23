@@ -91,7 +91,7 @@ columns:
           type: button popup-trigger
           action: "#mantegna-info"
 
-    - title: Prof. Federico Musciotto
+    - title: Dott. Federico Musciotto
       image: img/speaker/musciotto.jpg
       info:
         - text: Informazioni
