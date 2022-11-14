@@ -823,6 +823,7 @@ ul.accordion{
       background-color: #fff;
       padding: 20px;
       border-bottom: var(--borderstyle);
+
     }
 
     &-content{
@@ -1021,7 +1022,7 @@ ul.accordion{
         margin-top: 0px;
         margin-bottom: -10px;
       .column-content{
-      @media screen and (max-width: $large){
+      @media screen and (max-width: $large) and (min-width: $medium){
         display: flex;
         flex-direction: row;
         justify-content: stretch;
@@ -1034,18 +1035,22 @@ ul.accordion{
         & > div{
           flex-grow: 1;
           box-sizing: border-box;
-          min-width: 50%;
-          width: 50%;
-          max-width: 50%;
+          min-width: 33%;
+          width: 33%;
+          max-width: 33%;
 
-          @media screen and (max-width: $medium){
-            min-width: 100%;
-            width: 100%;
-            max-width: 100%;
+          @media screen and (min-width: $medium){
+
+              min-width: 50%;
+              width: 50%;
+              max-width: 50%;
           }
 
         }
       }
+
+
+
 
     }
   }
@@ -1124,6 +1129,7 @@ ul.accordion{
         justify-content: stretch;
         align-content: stretch;
         box-sizing: border-box;
+        align-items: flex-start;
         border-bottom: none;
       }
 
@@ -1223,7 +1229,7 @@ span.text-item{
   text-decoration: underline;
 }
 
-@media screen and (min-width: #{$big +1}){
+@media screen and (min-width: #{$large +1}){
 body.fixed-footer{
    .row-container{
     box-sizing: border-box;
