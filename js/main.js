@@ -16,6 +16,9 @@ $.fn.accordion = function (cssclass) {
     if (!parent.hasClass("active")) {
       $(container).removeClass("active");
       $(parent).addClass("active");
+      if ($(window).scrollTop() > $(elem).offset().top) {
+        $(window).scrollTop($(parent).offset().top - 10);
+      }
     } else {
       $(parent).removeClass("active");
     }
