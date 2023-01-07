@@ -7,37 +7,6 @@ columns:
 
 
   - width: h2 m6 s6
-    title: Unipa
-    style: separated big-row medium-row small-collapse
-    text:
-    - title: Dipartimento, sede Storica
-      image: img/strutture/archirafi.png
-      info:
-        - Via Archirafi, 36
-        - text: Informazioni
-          type: button popup-trigger
-          action: "#archirafi-info"
-
-
-    - title: Edificio 18
-      image: img/strutture/EDIFICIO18.jpg
-      info:
-        - Viale delle Scienze Parco d’Orléans II, Ed. 18
-        - text: Informazioni
-          type: button popup-trigger
-          action: "#edificio18-info"
-
-
-    - title: ATeN Center
-      image: img/strutture/ATeN_Center.jpeg
-      info:
-        - Viale delle Scienze, Ed. 18A
-        - text: Informazioni
-          type: button popup-trigger
-          action: "#aten-info"
-
-
-  - width: h2 m6 s6
     title: Palermo
     style: separated big-row medium-row small-collapse
     par: p2
@@ -74,8 +43,31 @@ columns:
         - text: Informazioni
           type: button popup-trigger
           action: "#steri-info"
-
-
+  - width: h1 m6 s6
+    title: Unipa
+    style: separated medium-row small-collapse
+    text:
+    - title: Dipartimento, sede Storica
+      image: img/strutture/archirafi.png
+      info:
+        - Via Archirafi, 36
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#archirafi-info"
+    - title: Edificio 18
+      image: img/strutture/EDIFICIO18.jpg
+      info:
+        - Viale delle Scienze Parco d’Orléans II, Ed. 18
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#edificio18-info"
+    - title: ATeN Center
+      image: img/strutture/ATeN_Center.jpeg
+      info:
+        - Viale delle Scienze, Ed. 18A
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#aten-info"
 
 
   - width: h1 m6 s6
@@ -92,6 +84,46 @@ columns:
         - text: Informazioni
           type: button popup-trigger
           action: "#majorana-info"
+
+  - width: h1 m6 s6
+    style: separated
+    par: p2
+    title: Alloggi
+    style: separated medium-row small-collapse
+    par: p2
+    text:
+    - title: Balarm Hostel
+      image: img/strutture/balarm-hostel.jpg
+      info:
+        - Via Roma, 41
+        - text: Sito web
+          type: button
+          link: "http://www.balarmhostel.it/"
+        - text: Posizione
+          type: button
+          link: "https://goo.gl/maps/QUvB5M1bgn8b7K9W9"
+    - title: Sunshine Hostel
+      image: img/strutture/sunshine-hostel.jpg
+      info:
+        - Via Lincoln, 97
+        - text: Sito web
+          type: button
+          link: "https://www.sunshinehostel.it/"
+        - text: Posizione
+          type: button
+          link: "https://goo.gl/maps/KuYK2yuXuQwYQ8Ag6"
+    - title: Sunrise Hostel
+      image: img/strutture/sunrise-hostel.jpg
+      info:
+        - Via Roma, 118
+        - text: Sito web
+          type: button
+          link: "https://www.sunrisehostel.it/"
+        - text: Posizione
+          type: button
+          link: "https://goo.gl/maps/eucCjzARpkcTAiYJ8"
+
+
 
 popups:
   - id: "archirafi-info"

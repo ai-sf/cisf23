@@ -55,7 +55,7 @@ columns:
     - title: 13:00 - 15:00
       subtitle: Pranzo organizzato
       footer: Edificio 18
-    - title: 15:00 - 17:00
+    - title: 15:00 - 17:30
       color: colored
       subtitle: Sessione plenaria II
       info:
