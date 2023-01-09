@@ -45,7 +45,7 @@ columns:
             icon: payments
       - subtitle: LE QUOTE COMPRENDONO
       - info:
-          - text: Pranzo Giovedì, Venerdì, Sabato
+          - text: Pranzo Giovedì e Venerdì
             style: smaller
             icon: check_circle
             icon-style: smaller
@@ -71,7 +71,7 @@ columns:
             style: smaller
             icon: unpublished
             icon-style: smaller
-          - text: Pranzo Mercoledì e Domenica
+          - text: Pranzo Mercoledì, Sabato, omenica
             style: smaller
             icon: unpublished
             icon-style: smaller
