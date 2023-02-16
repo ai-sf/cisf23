@@ -38,6 +38,9 @@ columns:
           link: http://www.inaf.it/it
           type: button
 
+    - title: Achthedon
+      image: img/sponsor/achthedon.jpg
+
     - title: Cefalù & Astronomy
       image: img/sponsor/CEFALU&ASTRONOMY.gif
 
@@ -62,6 +65,18 @@ columns:
       info:
         - text: Sito web
           link: https://www.unipa.it/
+          type: button
+    - title: «Ettore Majorana» Foundation and Centre for Scientific Culture
+      image: img/sponsor/majorana.jpg
+      info:
+        - text: Sito web
+          link: https://www.ccsem.infn.it/
+          type: button
+    - title: Comune di Erice
+      image: img/sponsor/erice.jpg
+      info:
+        - text: Sito web
+          link: https://www.comune.erice.tp.it/it
           type: button
     # - title: Comune di Palermo
     #   image: img/sponsor/palermo.png

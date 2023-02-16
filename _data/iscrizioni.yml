@@ -90,7 +90,3 @@ columns:
     - button: on
       text: Termini e condizioni
       link: https://drive.google.com/file/d/1HXrueuRnup3HJs7G6sxnhfTaiLTRcHsP/view
-    - button: on
-      text: Iscriviti
-      style: primary
-      link: https://docs.google.com/forms/d/e/1FAIpQLSf_Wt_3tdv1HGv0ogQNBcEdSYXM4YuxieUCX4AwbOW_hGYGbg/viewform

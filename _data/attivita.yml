@@ -54,12 +54,12 @@ columns:
 
 
 
-    - title: Serata allo Steri
-      image: img/attivita/serata_allo_steri.jpeg
+    - title: Serata alla Zisa
+      image: img/attivita/zisa.jpg
       info:
         - text: Informazioni
           type: button popup-trigger
-          action: "#steri-info"
+          action: "#zisa-info"
 
 
 
@@ -133,11 +133,11 @@ popups:
      - text: "Scoprire Palermo significa anche vivere la sua movida notturna passeggiando per il  centro storico e passando dalle zone più frequentate dai giovani: la Vucciria, Piazza  Sant’Anna, Piazza Maggione. Ma un vero luogo lo si può godere solo dopo una  soddisfacente cena sociale tutti insieme.
 "
 
-  - id: "steri-info"
-    title: "Serata allo Steri"
-    image: img/attivita/serata_allo_steri.jpeg
+  - id: "zisa-info"
+    title: "Serata alla Zisa"
+    image: img/attivita/zisa.jpg
     content:
-     - text: "Una serata dinamica tra concerti, dibattiti e poster session tutti insieme all’interno del Palazzo Chiaramonte, o anche chiamato tradizionalmente “Lo Steri”. Passeggiare tra le mura dell’antico palazzo che ospita il rettorato, sarà un'occasione di confronto unica e stimolante!"
+     - text: "Una serata dinamica tra concerti, dibattiti e tante altre attività da svolgere tutti insieme all’interno delle Nuove Officine Zisa. Quest’ultima serata di CISF23 sarà l’occasione perfetta per festeggiare tutti quanti insieme e per chiudere in bellezza le esperienze dei giorni appena trascorsi. "
 
   - id: "erice-info"
     title: "Erice"

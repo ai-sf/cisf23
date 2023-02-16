@@ -36,13 +36,13 @@ columns:
           type: button popup-trigger
           action: "#villafilippina-info"
 
-    - title: Palazzo Chiaramonte-Steri
-      image: img/strutture/steri.jpg
+    - title: NOZ-Nuove Officine Zisa
+      image: img/strutture/zisa.jpg
       info:
-        - Piazza Marina, 60
+        - Cantieri Culturali alla Zisa, PAD 20 - Via P. Gili, 4 - Palermo
         - text: Informazioni
           type: button popup-trigger
-          action: "#steri-info"
+          action: "#zisa-info"
   - width: h1 m6 s6
     title: Unipa
     style: separated medium-row small-collapse
@@ -170,7 +170,7 @@ popups:
         link: https://goo.gl/maps/sZvpEtzNtj115n3d8
 
   - id: "orto-info"
-    title: "ATeN Center"
+    title: "Orto Botanico"
     subtitle: Via Lincoln, 2
     image: img/strutture/orto-botanico.jpg
     content:
@@ -211,18 +211,21 @@ popups:
         link: https://goo.gl/maps/B8tzuUuM4YRm4EH76
 
 
-  - id: "steri-info"
-    title: "Palazzo Chiaramonte"
-    subtitle: Piazza Marina, 60
-    image: img/strutture/steri.jpg
+  - id: "zisa-info"
+    title: "NOZ-Nuove Officine Zisa"
+    subtitle: Cantieri Culturali alla Zisa, PAD 20 - Via P. Gili, 4
+    image: img/strutture/zisa.jpg
     content:
-      - text:  Noto come “Lo Steri”, Palazzo Chiaramonte fu costruito intorno al 1320 da Manfredi I Chiaramonte. Il principale tra le cinque dimore storiche che costeggiano Piazza Marina, è noto alla storia per essere la sede dell’inquisizione siciliana. Negli ultimi 70 anni, dopo un lungo periodo di restauro, e sede del rettorato dell’Università di Palermo e di numerosi musei d’arte.
+      - text:  "Gli spazi delle storiche officine Ducrot, all’interno dei Cantieri Culturali alla Zisa, tornano ad essere luogo di produzione grazie alle officine artigiane e tecnologiche: è qui che nei primi anni del ‘900 il lavoro delle alte maestranze e professionalità legate all’artigianato veniva richiesto da tutta Italia per la creazione di linee di mobili e arredi in stile liberty su disegni del prestigioso architetto palermitano Ernesto Basile.
+
+Oggi NOZ è un luogo allo stesso tempo di lavoro, di formazione, di promozione e sperimentazione, un hub per lo sviluppo locale e la sostenibilità ambientale. È qui che hanno sede percorsi per la professionalizzazione e per la valorizzazione delle competenze tradizionali, con particolare attenzione al dialogo interculturale e allo scambio dei saperi.
+"
       - text: Sito web
-        link: http://juicedjuiced14.altervista.org/palazzo_chiaramonte/home.html
+        link: https://www.nuoveofficinezisa.com/
         type: button
       - text: Posizione
         type: button
-        link: https://goo.gl/maps/BqwJKWdaugya1hrHA
+        link: https://goo.gl/maps/pAtjT7XRGiJsmPkYA
 
 
   - id: "majorana-info"

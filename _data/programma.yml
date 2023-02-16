@@ -15,6 +15,7 @@ columns:
       footer: Sede storica
     - title: 15:00 - 17:00
       subtitle: Cerimonia di apertura
+      footer: Sede Storica - Aula A
       info:
         - text: Saluti istituzionali
           type: popup-trigger
@@ -168,6 +169,7 @@ columns:
         subtitle: Coffee Break
       - title: 12:00 - 13:30
         subtitle: Cerimonia di Chiusura
+        footer: Sede Storica - Aula A
         color: colored-light
 
 
