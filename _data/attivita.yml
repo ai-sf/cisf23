@@ -84,19 +84,19 @@ columns:
           type: button popup-trigger
           action: "#AGA-info"
 
-    - title: Workshop AISF
-      image: img/attivita/WORKSHOP_AISF.jpg
-      info:
-        - text: Informazioni
-          type: button popup-trigger
-          action: "#workshop-info"
+    # - title: Workshop AISF
+    #   image: img/attivita/WORKSHOP_AISF.jpg
+    #   info:
+    #     - text: Informazioni
+    #       type: button popup-trigger
+    #       action: "#workshop-info"
 
-    - title: Visita organizzata
-      image: img/attivita/VISITE_ORGANIZZATE.jpg
-      info:
-        - text: Informazioni
-          type: button popup-trigger
-          action: "#visita-info"
+    # - title: Visita organizzata
+    #   image: img/attivita/VISITE_ORGANIZZATE.jpg
+    #   info:
+    #     - text: Informazioni
+    #       type: button popup-trigger
+    #       action: "#visita-info"
 
 popups:
   - id: "infn-info"
@@ -152,15 +152,15 @@ popups:
     content:
      - text: "L’Assemblea Generale Annuale è il momento cardine della vita dell’Associazione e per questo è da sempre una parte fondamentale della CISF. AGA 2023 sarà svolta in modalità mista, per permettere a tutti i membri di farne parte, ma tutti gli iscritti CISF avranno un posto riservato per partecipare in presenza. In AGA si prendono tutte le scelte che definiscono AISF e, soprattutto, si eleggono i nuovi membri del Comitato Esecutivo! "
 
-  - id: "workshop-info"
-    title: "Workshop AISF"
-    image: img/attivita/WORKSHOP_AISF.jpg
-    content:
-     - text: "I membri del Comitato Esecutivo possono mai stare con le mani in mano durante CISF23? Assolutamente no! Attraverso dei piccoli seminari cercaranno di spiegare come si gestisce un comitato locale nel migliore dei modi, quali sono le difficoltà di un presidente e come superarle, qual è la chiave per organizzare un evento di successo e soprattutto, di condividere la propria idea di AISF!"
+  # - id: "workshop-info"
+  #   title: "Workshop AISF"
+  #   image: img/attivita/WORKSHOP_AISF.jpg
+  #   content:
+  #    - text: "I membri del Comitato Esecutivo possono mai stare con le mani in mano durante CISF23? Assolutamente no! Attraverso dei piccoli seminari cercaranno di spiegare come si gestisce un comitato locale nel migliore dei modi, quali sono le difficoltà di un presidente e come superarle, qual è la chiave per organizzare un evento di successo e soprattutto, di condividere la propria idea di AISF!"
 
-  - id: "visita-info"
-    title: "Visita organizzata"
-    content:
-     - text: "In Arrivo!"
+  # - id: "visita-info"
+  #   title: "Visita organizzata"
+  #   content:
+  #    - text: "In Arrivo!"
 
 

@@ -10,12 +10,20 @@ columns:
     title: Sovvenzioni
     style: separated big-row medium-row small-collapse image-circle
     text:
-    - title: Orsa
-      image: img/sponsor/orsa.png
+    - title: INRIM
+      image: img/sponsor/inrim.jpg
       info:
         - text: Sito web
-          link: https://orsapa.org/
+          link: https://www.inrim.it/it
           type: button
+
+    - title: INFN - LNS
+      image: img/sponsor/infn_logo.png
+      info:
+        - text: Sito web
+          link: https://www.lns.infn.it/it
+          type: button
+
 
     - title: Dipartimento di Fisica e Chimica "E. Segrè"
       image: img/sponsor/difc.png

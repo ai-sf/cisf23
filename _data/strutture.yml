@@ -11,13 +11,13 @@ columns:
     style: separated big-row medium-row small-collapse
     par: p2
     text:
-    - title: Orto Botanico
-      image: img/strutture/orto-botanico.jpg
+    - title: Villa Zito
+      image: img/strutture/villazito.jpg
       info:
-        - Via Lincoln, 2
+        - Via della Libertà 52
         - text: Informazioni
           type: button popup-trigger
-          action: "#orto-info"
+          action: "#zito-info"
 
 
     - title: Osservatorio Astronomico "G. Vaiana"
@@ -169,18 +169,18 @@ popups:
         type: button
         link: https://goo.gl/maps/sZvpEtzNtj115n3d8
 
-  - id: "orto-info"
-    title: "Orto Botanico"
-    subtitle: Via Lincoln, 2
-    image: img/strutture/orto-botanico.jpg
+  - id: "zito-info"
+    title: "Villa Zito"
+    subtitle: Via della Libertà 52
+    image: img/strutture/villazito.jpg
     content:
-      - text:  L'Orto Botanico dell'Università degli Studi Palermo è una tra le più importanti istituzioni accademiche italiane. Considerato un enorme museo all'aperto, vanta oltre duecento anni di attività che gli hanno consentito anche lo studio e la diffusione, in Sicilia, in Europa e in tutto il bacino del Mediterraneo, di innumerevoli specie. La peculiarità di questo Orto Botanico è rappresentata oggi proprio dalla grande varietà di specie vegetali ospitate, molte originarie delle regioni tropicali e subtropicali, che ne fanno un luogo ricchissimo di espressioni di flore diverse.  L’origine dell’Orto Botanico di Palermo risale agli ultimi decenni del XVIII secolo, epoca in cui ha inizio, nel regno di Napoli e di Sicilia, una fase storica connotata da numerose riforme e da grandi aperture nel segno della cultura europea di marca illuministica.
+      - text:  "Prende il nome da uno degli ultimi proprietari della dimora, il commerciante di agrumi Francesco Zito Scalici, che acquistò l’edificio nel 1909. <br/> La villa ha però un’origine ben più antica: il Villabianca, infatti, riporta che la “casena” fu fondata da Gaspare Scicli intorno alla prima metà del Settecento. Nella seconda metà dello stesso secolo fu acquistata da Antonio La Grua, principe di Carini. La Fondazione Sicilia nel dicembre del 2005 ha acquistato la villa e successivamente ha affidato il restauro e la risistemazione dell’edificio all’Architetto Corrado Anselmi. Gli spazi espositivi sono dedicati alla conservazione e all’esposizione al pubblico delle collezioni pittoriche e di una selezione di opere grafiche."
       - text: Sito web
         type: button
-        link: http://www.ortobotanico.unipa.it/
+        link: https://www.villazito.it
       - text: Posizione
         type: button
-        link: https://goo.gl/maps/4GbZ1ZenhRstQTNd9
+        link: https://goo.gl/maps/yfzogMEga9bAyo88A
 
   - id: "osservatorio-info"
     title: "Osservatorio Astronomico \"G. Vaiana\""
