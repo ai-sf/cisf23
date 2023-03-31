@@ -12,7 +12,7 @@ columns:
     text:
     - title: 9:00 - 15:00
       subtitle: Accoglienza e registrazione
-      footer: Sede storica
+      footer: Sede storica, via Archirafi 36
     - title: 15:00 - 17:00
       subtitle: Cerimonia di apertura
       footer: Sede Storica - Aula A
@@ -53,7 +53,7 @@ columns:
        - ATeN Center
        - INFN
       color: colored-light
-    - title: 13:00 - 15:00
+    - title: 13:30 - 15:00
       subtitle: Pranzo organizzato
       footer: Edificio 18
     - title: 15:00 - 17:30
@@ -76,6 +76,7 @@ columns:
       subtitle: Tempo libero
     - title: 20:00 - 22:00
       subtitle: Cena sociale
+      footer: Villa Zito
       color: colored-light
     - title: "22:00"
       subtitle: Serata libera
@@ -85,16 +86,16 @@ columns:
     style: separated small-collapse
     par: p2
     text:
-      - title: 09:00 - 10:00
+      - title: 07:50 - 08:00
+        subtitle: Raduno
+        footer: Molo di Sant'Erasmo
+      - title: 08:00 - 10:00
         subtitle: Trasferimento Palermo - Erice
-      - title: 10:00 - 10:30
-        subtitle: Coffee Break
-      - title: 10:30 - 11:30
-        subtitle: Workshop AISF
-      - title: 11:30 - 13:00
-        subtitle: Visite organizzate
-      - title: 13:00 - 14:00
+      - title: 10:00 - 12:30
+        subtitle: Tempo Libero
+      - title: 12:30 - 13:30
         subtitle: Pranzo organizzato
+        footer: Palazzo Sales
       - title: 14:00 - 18:30
         subtitle: AGA
         footer: Centro di Cultura Scientifica - Ettore Majorana, Erice
@@ -135,19 +136,16 @@ columns:
         footer: Sede storica - Aula A
       - title: 13:30 - 15:00
         subtitle: Pranzo libero
-        footer: Sede Storica
       - title: 15:00 - 18:30
         subtitle: Sessione parallela
         color: colored
-        footer: Orto Botanico
+        footer: Sede Storica
       - title: 18:30 - 21:30
         subtitle: Tempo libero e cena libera
       - title: "21:30"
         subtitle: Serata alla Zisa
         color: colored-light
-        footer: Palazzo Chiaramonte
-
-
+        footer: Nuove Officine Zisa - NOZ
 
   - width: s6 m6 l2 h1
     title: Domenica 16.04.2023
@@ -180,9 +178,12 @@ popups:
       content:
         - text: Prof. Massimo Midiri
         - text: Magnifico Rettore dell’Università degli Studi di Palermo
+        - text: Stefana Milioto
+        - text: Prorettrice  alla Qualità, Sviluppo e Rapporti con i Dipartimenti ed Ex Direttrice del Dipartimento di Fisica e Chimica - E. Segre
         - text: Prof. Gioacchino Massimo Palma
         - text: Direttore del Dipartimento di Fisica e Chimica - E. Segrè - Università degli Studi di Palermo
         - text: Matteo Vismara
         - text: Presidente dell’Associazione Italiana Studenti di Fisica
         - text: Andrea Gherard Lutz
         - text: Presidente del Comitato Locale di Palermo dell’Associazione Italiana Studenti di Fisica
+        - text: Dott. Matteo Vismara
