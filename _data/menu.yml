@@ -10,6 +10,6 @@
   link: "sponsor"
 - text: "Attività"
   link: attivita
-- text: "Iscrizioni"
-  link: iscrizioni
+- text: "Booklet"
+  link: "img/booklet.pdf"
   grow: "grow"

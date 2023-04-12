@@ -32,6 +32,15 @@ columns:
           action: "#aten-info"
 
 
+    - title: Tempo Libero
+      image: img/attivita/tempolibero.jpg
+      info:
+        - text: Informazioni
+          type: button popup-trigger
+          action: "#tempolibero-info"
+
+
+
   - width: h2 m6 s6
     title: Serate
     style: separated big-row medium-row small-collapse
@@ -151,6 +160,12 @@ popups:
     image: img/attivita/aisf.jpg
     content:
      - text: "L’Assemblea Generale Annuale è il momento cardine della vita dell’Associazione e per questo è da sempre una parte fondamentale della CISF. AGA 2023 sarà svolta in modalità mista, per permettere a tutti i membri di farne parte, ma tutti gli iscritti CISF avranno un posto riservato per partecipare in presenza. In AGA si prendono tutte le scelte che definiscono AISF e, soprattutto, si eleggono i nuovi membri del Comitato Esecutivo! "
+
+  - id: "tempolibero-info"
+    title: "Tempo Libero"
+    image: img/attivita/tempolibero.jpg
+    content:
+     - text: "Durante il Tempo Libero non puoi perderti le bellezze di Palermo! In collaborazione con la Content Creator Roberta Trentacoste della pagina instagram In Sicilia con Me, abbiamo realizzato 2 itinerari artistico-culinari che vi guideranno alla scoperta del capoluogo siciliano.<br/> <a class='button' href='https://drive.google.com/file/d/1b01RdYubGZ5Uq_C9mRBPNog8NXfkG5IH/view?usp=sharing'>Scaricali qui!</a>"
 
   # - id: "workshop-info"
   #   title: "Workshop AISF"

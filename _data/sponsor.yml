@@ -114,4 +114,10 @@ columns:
         - text: Sito web
           link: https://www.accademiadipalermo.it/
           type: button
+    - title: In Sicilia con me
+      image: img/sponsor/insiciliaconme.png
+      info:
+        - text: Sito web
+          link: https://instagram.com/insiciliaconme?igshid=YmMyMTA2M2Y=
+          type: button
 

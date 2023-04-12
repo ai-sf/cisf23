@@ -11,8 +11,8 @@ sub-title: Per la VII edizione circa 150 studenti di Fisica da tutta Italia si r
 buttons:
  - text: Sito ufficiale - AISF
    link: https://ai-sf.it
- - text: Iscriviti
-   link: iscrizioni
+ - text: Booklet
+   link: "img/booklet.pdf"
  - text: cisf23@ai-sf.it
    link: mailto:cisf23@ai-sf.it
 

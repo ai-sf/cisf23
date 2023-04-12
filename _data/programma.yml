@@ -38,7 +38,7 @@ columns:
       subtitle: Cena libera
     - title: "21:30"
       subtitle: Botta di Coulomb
-      footer: Via Filippina
+      footer: Villa Filippina
       color: colored-light
 
   - width: s6 m6  l2 h1
@@ -49,9 +49,10 @@ columns:
     - title: 9:00 - 13:00
       subtitle: Attività parallele <br/>Visite e Workshop
       info:
-       - Osservatorio Astronomico G. Vaiana
-       - ATeN Center
-       - INFN
+      - Osservatorio Astronomico G. Vaiana
+      - ATeN Center
+      - INFN
+      - "<a href='img/attivita.jpg'>Apri</a>"
       color: colored-light
     - title: 13:30 - 15:00
       subtitle: Pranzo organizzato
@@ -88,7 +89,7 @@ columns:
     text:
       - title: 07:50 - 08:00
         subtitle: Raduno
-        footer: Molo di Sant'Erasmo
+        footer: <a href="https://goo.gl/maps/ycxRT87ysbRZwhRK6">Molo di Sant'Erasmo</a>
       - title: 08:00 - 10:00
         subtitle: Trasferimento Palermo - Erice
       - title: 10:00 - 12:30
@@ -152,7 +153,7 @@ columns:
     style: separated small-collapse
     par: p2
     text:
-      - title: 9:30 - 11:30
+      - title: 9:00 - 11:00
         subtitle: Sessione Plenaria V
         color: colored
         info:
@@ -163,12 +164,17 @@ columns:
             type: popup-trigger
             action: "#musciotto-info"
         footer: Sede storica - Aula A
-      - title: 11:30 - 12:00
-        subtitle: Coffee Break
+      - title: 11:00 - 12:00
+        subtitle: Coffee Break e Workshop AISF
+        footer: Sede Storica - Aula B
       - title: 12:00 - 13:30
         subtitle: Cerimonia di Chiusura
         footer: Sede Storica - Aula A
         color: colored-light
+        info:
+          - text: Saluti istituzionali
+            type: popup-trigger
+            action: "#saluti-chiusura"
 
 
 popups:
@@ -186,4 +192,15 @@ popups:
         - text: Presidente dell’Associazione Italiana Studenti di Fisica
         - text: Andrea Gherard Lutz
         - text: Presidente del Comitato Locale di Palermo dell’Associazione Italiana Studenti di Fisica
-        - text: Dott. Matteo Vismara
+    - id: saluti-chiusura
+      title: Saluti finali
+      class: alterned
+      content:
+        - text: Prof. Gioacchino Massimo Palma
+        - text: Direttore del Dipartimento di Fisica e Chimica - E. Segrè - Università degli Studi di Palermo
+        - text: Prof.ssa Angela Bracco
+        - text: Presidente Società Italiana di Fisica
+        - text: Matteo Vismara
+        - text: Presidente dell’Associazione Italiana Studenti di Fisica
+        - text: Andrea Gherard Lutz
+        - text: Presidente del Comitato Locale di Palermo dell’Associazione Italiana Studenti di Fisica
